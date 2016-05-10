@@ -216,6 +216,7 @@ mysql -u root -p
 ll /var/lib/mysql
 sudo ll /var/lib/mysql
 sudo ls /var/lib/mysql
+
 sudo ls /var/lib
 sudo ls -l /var/lib
 sudo chmod -R 755 /var/lib/mysql/
@@ -295,6 +296,7 @@ sudo apt-get remove --purge mysql-server
 sudo apt-get autoremove
 whereis mysql
 rm -rf /etc/mysql
+
 sudo apt-get install mysql-server
 sudo dpkg --configure mysql-server
 sudo apt-get remove --purge mysql-server
@@ -362,7 +364,7 @@ ls ..
 ls /home
 cd /srv
 ls
-cd ï¿½
+cd ¬
 cd ~
 cp .bash_history bash_history_20160504.txt
 cat /var/log/mysql/error.log 
@@ -704,6 +706,7 @@ rm -rf eclipse-wms
 mkdir eclipse-wms
 rm -rf workspace
 apt-cache search apache
+
 apt-cache info apache2
 apt-cache show apache2
 sudo apt-get install apache2
@@ -854,3 +857,293 @@ cd~
 cd ~
 ls
 history > bash_history_20160505.txt
+npm config set https-proxy http://proxy.reply.it:8080
+npm config set proxy http://proxy.reply.it:8080
+sudo apt-get update
+apt-get -u upgrade --assume-no
+sudo apt-get -u upgrade --assume-no
+sudo apt-get -u dist-upgrade --assume-no
+sudo apt-get -u dist-upgrade
+sudo apt-add-repository -y ppa:rael-gc/scudcloud
+history | grep apt-add-repository
+history | grep proxy.reply.it:8080
+sudo apt-add-repository --keyserver-options http-proxy=http://proxy.reply.it:8080 ppa:rael-gc/scudcloud
+echo $http_proxy
+history | grep ppa
+sudo -E apt-add-repository ppa:rael-gc/scudcloud
+sudo apt-get update
+sudo apt-key adv --keyserver-options http-proxy=http://proxy.reply.it:8080/ --keyserver keyserver.ubuntu.com --recv-keys 8094BB14F4E3FBBE
+sudo apt-get update
+echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+sudo apt-get update
+sudo apt-get install scudcloud
+vim /etc/apache2/sites-enabled/wms.conf 
+a2dissite wms
+sudo a2dissite wms
+sudo service apache2 reload
+vim /etc/apache2/sites-available/wms.conf 
+cd /etc/apache2/sites-available
+ls
+ll
+sudo vim wms.conf 
+cd ~
+sudo a2ensite wms
+sudo service apache2 reload
+cat /etc/apache2/apache2.conf 
+cat /etc/apache2/apache2.conf | grep listen
+cat /etc/apache2/apache2.conf 
+cat /etc/apache2/ports.conf 
+cat /etc/apache2/sites-enabled/wms.conf 
+cat /etc/apache2/apache2.conf 
+tail -f /path/to/apache/error.logs
+tail -f /var/log/apache2/error.log 
+sudo chmod -R 755 repos
+tail -f /var/log/apache2/error.log 
+sudo service apache2 reload
+tail -f /var/log/apache2/error.log 
+tail -f /var/log/apache2/access.log 
+ll /var/www
+ll -R /var/www
+ll /var
+ll /
+ll /home
+ll /home/allan
+ll /home/allan/repo
+ll /home/allan/repos
+ll /home/allan/repos/wms
+ll /home/allan/repos/wms-fe
+ll /home/allan/repos/wms/wms-fe
+cat /etc/apache2/
+cat /etc/apache2/apache2.conf 
+ls /etc/apache2/sites-enabled/
+cat /etc/apache2/sites-enabled/000-default.conf 
+sudo a2dissite 000-default
+sudo service apache2 reload
+cat /etc/apache2/apache2.conf | grep documentroot
+cat /etc/apache2/apache2.conf | grep DocumentRoot
+cat /etc/apache2/apache2.conf
+cat /var/www/html/index.html 
+sudo a2ensite 000-default
+sudo a2dissite 000-default
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wms-again.conf 
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wms-again.conf 
+cd /etc/apache2/sites-available/
+ls
+cat wms
+cat wms.conf 
+sudo a2dissite 000-default
+tail -f /var/log/apache2/error.log 
+cd ..
+ls envvars 
+cat envvars 
+sudo adduser allan www-data
+cat apache2.conf 
+vim apache2.conf 
+sudo vim apache2.conf 
+cd /home/allan/repos/
+find . -type d -exec chmod 755 {} \;
+find . -type f -exec chmod 644 {} \;
+echo $MYSQL_URL
+history | grep htpasswd
+cd /etc/apache2/sites-available
+sudo vim wms-again.conf 
+sudo a2ensite wms-again
+sudo service apace2 restart
+sudo service apache2 restart
+sudo a2disssite wms-again
+sudo a2dissite wms-again
+vim wms-again.conf 
+sudo vim wms-again.conf 
+sudo a2ensite wms-again
+sudo service apace2 restart
+sudo service apache2 restart
+ls
+ll /home/allan/repos/wms/wms-fe/
+ll /home/allan/repos/wms/
+ll /home/allan/repos/
+ll /home/allan/
+ll /home/allan
+ll /home
+ll /
+vim wms-again.conf 
+sudo vim wms-again.conf 
+sudo service apace2 restart
+sudo service apache2 restart
+cd ..
+ls
+sudo vim apache2.conf 
+sudo service apace2 restart
+sudo service apache2 restart
+sudo vim apache2.conf 
+sudo service apache2 restart
+cat apache2.conf 
+sudo service apache2 restart
+sudo chown allan:www-data -R /home/allan/repos
+sudo chmod 0755 -R /home/allan/repos
+sudo chmod g+s -R /home/allan/repos
+sudo service apache2 restart
+tail -f /var/log/apache2/error.log 
+sudo service mysql start
+sudo service wildfly start
+sudo service wildfly stop
+sudo service wildfly start
+history | grep wildfly
+sudo service mysql start
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo -E /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo echo $MYSQL_URL
+vim ~/.bashrc 
+. ~/.bashrc 
+sudo echo $MYSQL_URL
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+vim /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo mv repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT /opt/wildfly-9.0.2.Final/standalone/deployments
+cd /opt/wildfly-9.0.2.Final/standalone/deployments
+ls
+sudo cp repos/wms/wms-be/wms-application/target/ /opt/wildfly-9.0.2.Final/standalone/deployments
+sudo cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear ./
+ls
+sudo cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear ./
+cd ..
+sudo vim configuration/standalone-full.xml
+cat ~/.bashrc 
+vim ~/.bashrc 
+. ~/.bashrc 
+sudo echo $MYSQL_URL
+sudo service wildfly start
+systemctl status wildfly.service
+sudo service wildfly start
+journalctl -xe
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+cd /opt/wildfly-9.0.2.Final/
+ls
+cd bin
+ls
+sudo vim jboss-cli.xml 
+cd..
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo vim jboss-cli.xml 
+cd ..
+cd standalone/configuration/
+ls
+sudo vim standalone-full.xml
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo mysql
+sudo service mysql restart
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo service mysql restart
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo service mysql restart
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+. ~/.bashrc 
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo WMS_APPLICATION_1_0_CONFIGURATION_URL="file://be_configuration_folder/wms-be-configuration/src/main/resources/" /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+cd ~
+cd repos/wms/wms-fe/
+ls
+ll
+cd ../..
+cd ..
+cd repos/
+find . -t d -exec chmod a+rwx \;
+history | grep chmod
+cd wms/
+cd wms-fe/
+ls
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd wms-be-configuration
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd wms-be
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd sce-ui/
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd sce-backend/
+sudo chmod 755 setBambooDeploySkip.sh 
+cat /proc/sys/fs/inotify/max_user_watches
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+cat /proc/sys/fs/inotify/max_user_watches
+sudo service mysql status
+sudo service wildfly status
+sudo service wildfly statr
+sudo service wildfly start
+ls /opt
+ll /opr
+ll /opt
+cd /opt/
+ls
+ll
+cd wildfly-9.0.2.Final/
+ls
+cd standalone/
+ls
+cd configuration/
+ls
+vim standalone-full.xml
+sudo vim /etc/default/wildfly 
+cd ¬
+cd ]
+cd ~
+sudo service wildfly start
+sudo service wildfly status
+sudo service mysql status
+cd /opt/wildfly-9.0.2.Final/standalone/deployments/
+ls
+which node
+npm install -g trash-cli
+npm config rm proxy
+npm config rm https-proxy
+npm install -g trash-cli
+trash wms-application-1.0.0-SNAPSHOT.ear.failed 
+rm wms-application-1.0.0-SNAPSHOT.ear.failed 
+mv wms-application-1.0.0-SNAPSHOT.ear ~/Downloads/
+ls
+sudo service mysql status
+sudo service wildfly start
+sudo service wildfly status
+cat the timeout allowed
+cat "/var/log/wildfly/console.log"
+ll "/var/log/wildfly/console.log"
+ll "/var/log/wildfly/
+"
+ll "/var/log/wildfly"
+tail -f /var/log/apache2/access.log 
+sudo service mysql status
+sudo service wildfly status
+cd repos/wms/
+find . -name "*.ear"
+cd /opt/wildfly-
+cd /opt/wildfly-9.0.2.Final/
+ls
+cd ..
+ls
+trash
+trash wildfly-10.0.0.Final/
+sudo trash wildfly-10.0.0.Final/
+ls
+cd wildfly-9.0.2.Final/
+ls
+cd standalone/deployments/
+ls
+cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments
+sudo apt-get update
+sudo apt-cache search compizconfig-settings-manager
+sudo apt-get install compizconfig-settings-manager
+sudo service wildfly stop
+tail -50 /var/log/apache2/access.log 
+tail -50 /var/log/apache2/error.log 
+tail -f /var/log/apache2/error.log 
+sudo apt-get install hardinfo
+hardinfo
+cat /dev/cpu/0
+cat /dev/cpu/0/cpuid 
+sudo cat /dev/cpu/0/cpuid 
+sudo lshw
+sudo apt-get remove hardinfo
+sudo apt-get purge
+hardinfo
+cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments
