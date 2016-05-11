@@ -1147,3 +1147,83 @@ sudo apt-get remove hardinfo
 sudo apt-get purge
 hardinfo
 cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments
+cp .bash_history bash_history_20160509.txt
+cd repos
+ls
+mkdir linux-bok
+cd linux-bok/
+git init
+echo "# linux-bok" > README.md
+cp ~/bash_history_20160504.txt ./my_bash_history
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/atask/linux-bok.git
+git push -u origin master
+cd cd ..
+cd ..
+rm -rf linux-bok
+mkdir linux-bok
+cd linux-bok
+git init
+git config user.name
+git config user.email
+git config user.email "allan.taschini@gmail.com"
+git config user.email
+git config user.name
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/atask/linux-bok.git
+cp ~/bash_history_20160505.txt my_bash_history
+node
+nvm use v6.0.0
+node
+git remote
+git push -u origin master
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo service status mysql
+history | grep service
+cd ~
+sudo service mysql status
+sudo service wildfly status
+sudo service wildfly stop
+cd ~/Downloads/
+ll /opt/
+mv gitkraken-new /opt/
+sudo mv gitkraken-new /opt/
+ll /opt
+cd /opt/
+ls
+sudo mv gitkraken gitkraken-old
+sudo mv gitkraken-new gitkraken
+sudo rm -rf gitkraken-old
+ls
+cd repos/
+ls
+cd wms/
+ls
+cd wms-be
+ls
+ll
+mvn sonar:sonar
+sudo mv ~/Downloads/sonarqube-5.5 /opt/
+cd /opt/
+ls
+ll
+cd sopn
+cd -
+mvn sonar:sonar
+sudo cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments
+cd /opt/sonarqube-5.5/
+ls
+cd bin
+ls
+xs linux-x86-64/
+cs linux-x86-64/
+cd linux-x86-64/
+ls
+./sonar.sh 
+./sonar.sh start
+./sonar.sh stop
