@@ -1368,3 +1368,110 @@ root ufw status
 sudo ufw status
 tail -f /var/log/apache2/error.log
 ip addr
+cp .bash_history repos/linux-bok/my_bash_history 
+sudo apt-get update
+sudo apt-get upgrade
+cd /opt/wildfly-9.0.2.Final/standalone/deployments/
+ls
+trash wms-application-1.0.0-SNAPSHOT.ear
+rm wms-application-1.0.0-SNAPSHOT.ear
+rm wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear 
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear .
+cd ~
+sudo apt-cache search jxplorer
+apt-cache search jxplorer
+sudo apt-get install jxplorer
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get upgrade
+jxplorer 
+cat /etc/bluetooth/main.conf 
+cat /etc/bluetooth/main.conf | grep initial
+cat /etc/bluetooth/main.conf | grep Initial
+cat /etc/bluetooth/network.conf 
+cat /etc/bluetooth/input.conf 
+systemctl 
+history | grep systemctl
+systemctl status bluetooth
+sudo systemctl disable bluetooth
+github
+cd repos/eat-books/
+which npm
+nvm use 6.0.0
+ls
+cp ~/Desktop/eat-books/index.js .
+cp ~/Desktop/eat-books/package.json .
+ls
+vim .gitignore
+ls
+npm install
+ls
+cat .gitignore 
+ls index.js 
+cat index.js +
+vim index.js 
+npm install -g node-inspector
+node-debug index.js 
+node-debug -p 8181 index.js
+npm install --save bluebird
+ls
+ls node_modules/
+node-debug -p 8181 index.js
+node
+node-debug -p 8181 index.js
+node -version
+node --version
+nvm 
+nvm ls
+nvm use 6
+node-debug -p 8181 index.js
+npm install -g node-debug
+npm uninstall -g node-debug
+npm install -g node-inspector
+node --version
+node-debug -p 8181 index.js
+ls
+rm ù
+ls
+cat index.js 
+node debug index.js 
+node index.js 
+node debug index.js 
+node index.js 
+node debug index.js 
+node index.js 
+node debug index.js 
+sudo systemctl list-units
+sudo systemctl is-active mysql
+sudo systemctl is-enabled mysql
+sudo systemctl start+ mysql
+sudo systemctl start mysql
+sudo systemctl is-active mysql
+cd  sce
+git status
+ls -a
+cd wms-fe/
+git status
+git tag
+git tag -l
+git checkout tags/1.3.0
+npm -g list
+node --version
+npm list -g --depth=0
+npm install -g selleck
+cd ../sce-ui/
+ls
+selleck --help
+selleck --server 8282
+sudo systemctl status apache
+sudo systemctl status apache2
+sudo systemctl stop apache2
+a2dissite wms
+sudo a2dissite wms
+vim /etc/apache2/sites-available/wms.conf 
+cat /etc/apache2/sites-available/wms-again.conf 
+cat /etc/apache2/sites-available/wms.conf 
+sudo a2dissite wms-again
+sudo a2ensite wms-again.conf 
+sudo systemctl start apache2
