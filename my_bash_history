@@ -1475,3 +1475,170 @@ cat /etc/apache2/sites-available/wms.conf
 sudo a2dissite wms-again
 sudo a2ensite wms-again.conf 
 sudo systemctl start apache2
+cd sce/sce-ui/
+selleck --server 8282
+selleck --help
+
+nvm ls
+npm install -g yuidoc
+npm install -g yuidocjs
+yuidoc .
+yuidoc --help
+yuidoc --server 8282
+yuidoc --server 8282 .
+cd repos/eat-books/
+ls
+vim reduce.js 
+cp reduce.js ~/Desktop/
+sudo systemctl mysql start
+sudo systemctl start mysql
+sudo a2dissite wms
+sudo a2dissite wms-again
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+trash wms.conf 
+mv wms.conf ~/
+sudo mv wms.conf ~/
+ls
+sudo mv wms-again.conf wms.conf 
+sudo vim wms.conf 
+cd ~
+sudo a2ensite wms
+sudo systemctl restart apache2
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+cp .bash_history repos/linux-bok/my_bash_history 
+cp Desktop/reduce.js repos/eat-books/
+cd repos/eat-books/
+ls
+cat reduce.js 
+node reduce.js 
+nvm ls
+nvm use 6
+node reduce.js 
+node debugreduce.js 
+node debug reduce.js 
+node debugreduce.js 
+node reduce.js 
+npm view yui
+npm view swear
+npm view swearing
+npm login
+mkdir ../et
+mv node_modules ../et/
+npm publish
+ls
+mv ../et/node_modules .
+ls
+cd ..
+cd swearing/
+ls
+npm init
+vim package.json 
+cp ../eat-books/.gitignore .
+ls
+ls -a
+cat .gitignore 
+npm publish
+cd repos/swearing/
+ls
+cat README.md 
+cat package.json 
+cp ~/Desktop/reduce.js .
+ls
+vim reduce.js 
+mv reduce.js each.js
+ls
+mkdir test
+npm install standard --save-dev
+ls
+rm -rf node_modules/
+ls
+nvm use 6
+ls
+cat package.json 
+ls
+npm install standard --save-dev
+npm install tape --save-dev
+ls
+mkdir lib
+mv each.js lib/
+touch index.js
+vim index.js 
+vim package.json 
+npm run standard
+npm run standard -q
+npm run -s standard
+cd lib/
+vim each.js 
+cd ..
+vim package.json 
+touch test/each.test.js
+vim test/each.test.js 
+npm run -s standard:test
+node test/each.test.js 
+vim test/each.test.js 
+cd ..
+cd swearing/
+vim lib/each.js 
+vim index.js 
+vim test/each.test.js
+nvm ls
+nvm use 6
+cd repos/swearing/
+ls
+node reduce.js 
+cd test
+npm init
+git init
+npm init
+rm -rf .git/
+ls -a
+cd ..
+npm run -s standard
+npm run -s standard:lib
+npm run -s standard:index
+npm run -s standard:test
+npm run -s standard
+npm run standard
+node
+node test/each.test.js
+node debug test/each.test.js
+node test/each.test.js
+:q
+sudo systemctl start mysql
+cd repos/wms/
+cd ~
+cd sce/
+ls
+cd sce-ui/
+yuidoc --help
+ls
+yuidoc .
+ls
+yuidoc --help
+yuidoc --server 8282 .
+lsb_release -c
+ls /etc/apt/sources.list.d/
+ll /etc/apt/sources.list.d/
+sudo vim /etc/apt/sources.list.d/sourcegear.list
+cat /etc/apt/sources.list.d/sourcegear.list
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes http_proxy=proxy.reply.it:8080
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes http_proxy=http://proxy.reply.it:8080
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes http_proxy=http://proxy.reply.it:8080/
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes http_proxy=proxy.reply.it:8080
+ping proxy.reply.it
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes http_proxy=10.7.0.40:8080
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes -e http_proxy=proxy.reply.it:8080
+sudo wget -O - http://debian.sourcegear.com/SOURCEGEAR-GPG-KEY -e use_proxy=yes -e http_proxy=proxy.reply.it:8080 | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install diffmerge
+apt-cache searc meld
+apt-cache search meld
+sudo apt-get install meld
+rm /etc/apt/sources.list.d/sourcegear.list
+sudo rm /etc/apt/sources.list.d/sourcegear.list
