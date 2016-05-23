@@ -1642,3 +1642,149 @@ apt-cache search meld
 sudo apt-get install meld
 rm /etc/apt/sources.list.d/sourcegear.list
 sudo rm /etc/apt/sources.list.d/sourcegear.list
+sudo apt-get dist-upgrade
+sudo systemctl start mysql
+cp .bash_history repos/linux-bok/my_bash_history 
+ls /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cd sce/sce-ui/
+ls
+shifter
+nvm ls
+npm -g list --depth=0
+selleck --help
+selleck --server 8282
+cd sce-ui/
+cd sce/sce-ui/
+yuidoc --server 8383 .
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.failed 
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cd repos/swearing/
+nvm use 6
+ls
+cd lib
+cd ..
+vim lib/each.js 
+vim test/each.test.js 
+cat ~/.vimrc
+vim ~/.vimrc
+vim test/each.test.js 
+vim package.json 
+cd repos/swearing/
+nvm use 6
+cat lib/each.js 
+npm run standard
+npm run test
+node test/each.test.js 
+npm run test
+cd sce/sce-ui/
+ls
+yuidoc --server 8383 .
+cd sce/
+cd sce-ui
+selleck --port 8282
+selleck --server 8282
+top
+sudo apt remove appstream
+sudo apt-get remove appstream
+sudo apt-get
+sudo apt-get remove appstream
+sudo apt-get autopurge
+sudo apt-get purge
+sudo apt-get autoremove
+sudo apt-get update
+sudo apt-get dist-upgrade
+top
+cd repos/swearing/
+nvm use 6
+vim package.json 
+ls
+vim LICENCE
+ls
+vim package.json 
+npm version major
+git log --pretty
+git log --pretty=format:"%h - %S"
+git log --pretty=format:"%h - %s"
+cd ..
+trash swearing
+nvm ls
+npm install -g trash-cli
+trash swearing/
+cd swearing/
+cd ..
+mkdir test
+cd tes
+cd test/
+npm install ../swearing
+npm init
+npm install ../swearing
+ls
+ls node_modules/
+ls node_modules/swearing/
+node
+cd ..
+trash test
+cd swearing/7
+cd swearing/
+npm version major -m "Bumped to version %s"
+git log --pretty=format:"%h - %S"
+git log --pretty=format:"%h - %s"
+npm publish
+cd ..
+cd eat-books/
+ls
+cat npm-debug.log 
+ls
+git log
+cat package.json 
+vim package.json 
+git config user.name
+git config user.name="ᴉuᴉɥɔsɐʇ uɐllɐ"
+git config user.name "ᴉuᴉɥɔsɐʇ uɐllɐ"
+git config user.name
+vim index.js 
+npm install swearing --save
+cat package.json 
+npm uninstall --save bluewbird
+npm uninstall --save bluebird
+node index.js 
+cp ../swearing/LICENCE .
+vim index.js 
+cd repos/swearing
+nvm use 6
+npm run standard
+npm run test
+cd ..
+cd swearing/
+npm run standard
+npm install
+npm run standard
+cd ..
+cd eat-books/
+cat package.json 
+npm run -s standard
+node index.js 
+trash node_modules/
+ls
+sudo systemctl start mysql
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cat /etc/apache2/sites-enabled/wms.conf 
+history | grep amazon
+history | grep amaz
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cd sce/sce-ui
+selleck --server 8282
+cd sce/sce-ui
+yuidoc --server 8383
+yuidoc --server 8383 .
