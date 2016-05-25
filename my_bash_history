@@ -1788,3 +1788,179 @@ selleck --server 8282
 cd sce/sce-ui
 yuidoc --server 8383
 yuidoc --server 8383 .
+cp .bash_history repos/linux-bok/my_bash_history 
+cd repos/eat-books/
+nvm use 6
+node
+cat index.js 
+node index.js 
+node debug index.js 
+ct index.js 
+cat index.js 
+node debug index.js 
+cat index.js 
+node index.js 
+npm run standard
+node index.js 
+node
+node index.js 
+npm run standard
+npm run -s standard
+node index.js 
+npm run -s standard
+node index.js 
+node debug index.js 
+node index.js 
+node debug index.js 
+node index.js 
+ls
+trash ù
+node debug index.js 
+cat pdf/
+ls pdf/
+node debug index.js 
+node index.js 
+[A
+node index.js 
+npm run -s standard
+node index.js 
+npm run -s standard
+node index.js 
+node debug index.js 
+node index.js 
+node debug index.js
+node index.js 
+node debug index.js
+node index.js 
+node debug index.js
+node index.js 
+node debug index.js
+node index.js 
+node debug index.js
+node-inspector 
+node-inspector --web-port 8181 index.js 
+node-debug --web-port 8181 index.js 
+cd repos/eat-books/
+nvm use 6
+cat package.json 
+npm uninstall --save ls
+npm install glob --save
+cat package.json 
+npm install
+ls
+cat reduce.js 
+cd ..
+cd eat-books/
+ls
+cat index.js 
+trash reduce.js 
+ls
+vim index.js 
+npm uninstall --save glob
+cat package.json 
+nvm use 6
+cd repos/eat-books/
+ls
+mkdir pdf
+ls
+cd pdf
+touch put_pdf_here
+ls
+touch example.pdf
+cd ..
+node index.js 
+ps aux | grep node
+sudo kill 11483
+ps aux | grep node
+sudo kill 11658
+cat
+ls
+noe
+node
+ps aux | grep node
+kill 21135
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+sudo systemctl start apache
+sudo systemctl start apache2
+sudo systemctl start mysql
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cd sce/sce-ui/
+yuidoc --server 8383 .
+top
+cd sce/sce-ui/
+selleck --server 8282
+sudo systemctl status apache2
+sudo systemctl start mysql
+sudo systemctl stop apache2
+sudo systemctl disable apache2
+sudo systemctl status apache2
+sudo systemctl start apache2
+sudo systemctl status apache2
+clear
+cd repos/
+cd eat-books/
+npm install --save axios
+nvm ls
+npm uninstall --save axios
+nvm use 6.2
+npm install --save axios
+npm install
+ls
+cat package.json 
+node index.js 
+node 
+node index.js 
+node-debug index.js 
+node-debug --web-port=8484 index.js 
+node index.js 
+cd repos/eat-books/
+nvm ls
+nvm ls all
+nvm ls-remote
+nvm install 6.2
+nvm ls
+nvm use 6.0
+npm list -g --depth=0
+nvm use 6.2
+npm l -g ..depth=0
+npm l -g --depth=0
+npm ls -g --depth=0
+npm config list
+nvm use 6.0
+npm config list
+nvm use 6.2
+npm install -g node-inspector trash-cli
+ls
+vim index.js 
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+apt-cache search gimp
+sudo apt-get install gimp
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cd repos/wms/wms-be
+ls
+mvn clean
+mvn compile package -DskipTests
+cd ~
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cat /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+vim /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+top
+cd sce/sce-ui/
+yuidoc --server 8383 .
+sudo apt-get update
+sudo apt-get dist-upgrade
+cd sce/sce-ui/
+selleck --server 8282
