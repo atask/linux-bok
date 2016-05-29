@@ -364,7 +364,7 @@ ls ..
 ls /home
 cd /srv
 ls
-cd ¬
+cd ï¿½
 cd ~
 cp .bash_history bash_history_20160504.txt
 cat /var/log/mysql/error.log 
@@ -1085,7 +1085,7 @@ cd configuration/
 ls
 vim standalone-full.xml
 sudo vim /etc/default/wildfly 
-cd ¬
+cd ï¿½
 cd ]
 cd ~
 sudo service wildfly start
@@ -1964,3 +1964,287 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 cd sce/sce-ui/
 selleck --server 8282
+cp .bash_history repos/linux-bok/my_bash_history 
+cd repos/wms/wms-be
+mvn clean
+mvn compile package
+mvn compile package -DskipTests
+ls
+cd ..
+ls
+vim build-be-notests.sh
+ls
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cd ~
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+sudo systemctl start mysql
+sudo systemctl status apache2
+sudo systemctl start apache2
+ls /opt/wildfly-9.0.2.Final/standalone/deployments/
+cat /etc/apache2/sites-enabled/wms.conf 
+cd repos/eat-books/
+nvm use 6
+echo $M2_HOME
+echo $MAVEN_HOME
+vim ~/.bashrc 
+sudo apt-get update
+sudo apt-get dist-upgrade
+cd repos/eat-books/
+nvm use 6
+ls /home/allan/.m2
+which mvn
+ls -l /usr/bin/mvn
+ls -l /etc/alternatives/mvn
+ls -l /usr/share/maven/bin/mvn
+top
+sudo systemctl start apache2
+sudo systemctl start mysql
+cd sce/sce-ui/
+ls
+selleck --server 8383
+cd sce/sce-ui/
+ls
+yuidoc --server 8282 .
+sudo apt-get update
+cat .bashrc 
+vim .bashrc 
+vim /etc/apt/apt.conf.d/90proxy 
+vim /etc/apt/apt.conf.d/00aptitude 
+vim /etc/apt/apt.conf.d/00trustcdrom
+vim /etc/apt/apt.conf.d/50unattended-upgrades 
+ls /etc/apt/apt.conf.d/
+ls -l /etc/apt/apt.conf.d/
+sudo vim /etc/apt/apt.conf.d/90proxy 
+sudo apt-get update
+. .bashrc
+echo $http_proxy
+echo $https_proxy
+apt-cache search skype
+echo "deb http://archive.canonical.com/ubuntu trusty partner" | sudo tee -a /etc/apt/sources.list.d/canonical_partner.list
+sudo apt-get update
+apt-cache search skype
+sudo apt-get install skype
+apt-cache search phantom-jsd
+apt-cache search phantom-js
+apt-cache search phantom
+apt-cache search phantomjs
+sudo apt-get install phantomjs
+phantomjs
+phantomjs --version
+sudo apt-get remove phantomjs
+sudo apt-get autoremove
+cd Doenlo
+cd Downloads/
+ls
+tar -xvfj phantomjs-1.9.8-linux-x86_64.tar.bz2 
+mv phantomjs-1.9.8-linux-x86_64 /opt/
+ls /opt
+ls /
+ls -l /
+cd /opt/
+ls
+mkdir cacca
+ls -l
+sudo 
+sudo mkdir cacca
+ls
+ls -l
+sudo chown allan atom
+ls -l
+sudo chown allan:allan atom
+ls -l
+sudo rmdir cacca
+sudo cp ~/Downloads/phantomjs-1.9.8-linux-x86_64 .
+ls
+sudo mv ~/Downloads/phantomjs-1.9.8-linux-x86_64 .
+ls
+ls -l
+cd ~
+cd /opt/phantomjs-1.9.8-linux-x86_64/
+cd bin/
+ls
+./phantomjs 
+ls -a
+ls -a ~
+cat ~/.profile
+cd ~/repos/wms/
+cd wms-fe/
+ls
+cd src/
+ls
+cd ../wms/
+ls
+cd hello
+ls
+cd sce-hello-inbound-asn-view/
+ls7
+ls
+cd ..
+ls
+cd sce-hello-inbound-asn-view
+yogi test --debug
+cp ~/repos/wms/sce-ui/src/sce-notification/build.json .
+ls
+ll
+mkdir js
+mv sce-hello-inbound-asn-view.js js/
+ls
+vim build.json 
+ls
+yogi test --debug
+ls
+ls js/
+trash js
+ls
+cp ~/repos/wms/sce-ui/src/sce-clock/tests .
+ls
+cp ~/repos/wms/sce-ui/src/sce-clock/tests ./
+cp -R ~/repos/wms/sce-ui/src/sce-clock/tests ./
+ls
+cat tests/
+ls
+ls tests/
+grover tests/unit/index.html 
+. ~/.bashrc 
+grover tests/unit/index.html 
+cd ../../
+cd ..
+grover wms/hello/sce-hello-inbound-asn-view/tests/unit/index.html 
+grover --debug wms/hello/sce-hello-inbound-asn-view/tests/unit/index.html 
+grover wms/hello/sce-hello-inbound-asn-view/tests/unit/index.html --debug
+grover
+grover --help
+grover --no-run
+grover wms/hello/sce-hello-inbound-asn-view/tests/unit/index.html --no-run
+grover wms/hello/sce-hello-inbound-asn-view/tests/unit/index.html --server --no-run
+grover wms/hello/sce-hello-inbound-asn-view/tests/unit/index.html --server --no-run --debug
+cat package.json
+npm install --save-dev find
+node
+ls
+node debug wms-test.js 
+node wms-test.js 
+cp -R ../sce-ui/src/sce-clock/tests wms/hello/sce-hello-inbound-asn-view/
+node wms-test.js 
+node debug wms-test.js 
+node wms-test.js 
+cd sce
+cd ..
+cd repos/
+cd sc-ui
+cd sce-ui
+ls
+cd wms/
+ls
+cd sce-ui
+ls
+cd src
+ls
+cd sce-notification/
+ls
+cat build.json 
+cd ..
+nvm ls
+npm config list
+cat ~/.npmrc 
+npm search yogi
+npm list -g --depth=0
+npm install -g yogi
+yogi --help
+cd -
+cd src
+cd sce-notification/
+ls
+togi test
+yogi test
+yogi test --debug
+cd ..
+grunt --help
+ls build/
+grunt test
+vim ~/.bashrc 
+. ~/.bashrc
+echo $PATH
+phantomjs 
+phantomjs --version
+grunt test
+cd src/sce-notification/
+grunt test
+yogi test --debug
+cat ~/.yogi.json 
+ls
+cat build.json 
+lst
+ls
+ll
+ls meta
+cat meta/sce-notification.json 
+ls
+cd tests
+cat u
+ls te
+kls
+ls
+ls unit/
+npm install -g grover
+grover -h
+cd ..
+cat package.json 
+ls
+cd ..
+cd wms-fe
+cat package.json 
+vim package.json 
+mv package.json package.json.old
+npm init
+vim package.json
+ls
+cat .gitignore
+ls
+rm Gruntfile.js 
+touch wms-test.js
+npm install --save-dev grover
+cat package.json
+vim wms-test.js 
+sudo systemctl start apache2
+sudo systemctl start mysql
+cd repos/wms/
+ls
+cd wms-be
+ls
+mvn clean
+mvn build package
+history | grep mvn
+mvn clean
+mvn compile package
+find . --iname setting.xml
+find . --name setting.xml
+find . -name setting.xml
+vim ~/.m2/settings.xml 
+mvn clean
+mvn compile package
+mvn compile package -DskipTests
+mv /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear ~/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+ls /opt/wildfly-9.0.2.Final/standalone/deployments/
+cd repos/eat-books/
+nvm use 6.2
+node index.js 
+nvm 
+nvm ls
+node index.js 
+cd repos/eat-books/
+nvm use 6.2
+vim index.js 
+cat index.js 
+ls 
+ls -a
+rm .index.js.swp 
+vim index.js 
+node
+top
+sudo systemctl stop apache2
+sudo systemctl stop mysql
+top
