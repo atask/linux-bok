@@ -2248,3 +2248,125 @@ top
 sudo systemctl stop apache2
 sudo systemctl stop mysql
 top
+cp .bash_history repos/linux-bok/my_bash_history 
+vim .bashrc 
+vim /etc/apt/apt.conf.d/90proxy 
+sudo vim /etc/apt/apt.conf.d/90proxy 
+sudo apt-get update
+sudo apt-get dist-upgrade
+cd Downloads/
+ls
+tar -zxvf install_flash_player_11_linux.x86_64.tar.gz 
+ls
+which firefox
+ll /usr/bin/firefox 
+ll /usr/lib/firefox/firefox
+sudo cp libflashplayer.so /usr/lib/mozilla/plugins
+sudo apt-cache search vlc
+sudo apt-get install vlc
+top
+sudo service apache2 start
+sudo service mysql start
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+passwd
+cd ~/repos/wms/wms-be/
+sudo service ntp stop
+sudo ntpd -gq
+sudo sntp -s 24.56.178.140
+ntpd
+man date
+cd wms-application/
+mvn clean
+history | mvn
+history | grep mvn
+mvn compile package
+cp target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+vim ~/.m2/settings.xml 
+mvn clean
+mvn compile package
+cd /opt/wildfly-9.0.2.Final/standalone/configuration/
+ls
+cd standalone_xml_history/
+ls
+cd 20160506-133459612/
+ls
+cd ..
+mv 20160506-133459612 ~/
+sudo mv 20160506-133459612 ~/
+cd ..
+ls
+cd standalone_xml_history/
+ls
+cd ..
+ll
+cd wildfly-l
+cd wildfly-9.0.2.Final/
+kls
+ls
+7ll
+ll
+cd standalone/
+ll
+cd configuration/
+ll
+cd standalone_xml_history/
+ll
+cd current/
+ls
+ll
+cd ..
+sudo chown allan:allan 20160506-132426794
+ll
+sudo chown allan:allan 20160506-133143933
+sudo chown allan:allan 20160506-133459612
+sudo chown allan:allan 20160506-133751085
+sudo chown allan:allan current/
+ls
+ll
+ll 20160506-132426794
+cd snapshot/
+ls
+ll
+cd ..
+find . -type f -name '*.xml' -print0 | xargs -0 chown allan:allan
+find . -type f -name '*.xml' -print0 | xargs -0 sudo chown allan:allan
+find . -type f -name '*.xml' -print0 | ll
+find . -type f -name '*.xml' -print0 | ech
+find . -type f -name '*.xml' -print0 | ls
+find . -type f -name '*.xml' -print0
+find . -type f -name '*.xml'
+ll ./20160506-133143933/standalone-full.v1.xml
+cd ..
+ls
+ll
+cd standalone_xml_history/
+ll
+cd\
+cd ~
+ll /opt/wildfly-9.0.2.Final/standalone/deployments/
+ls /opt/wildfly-9.0.2.Final/standalone/deployments/
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT /opt/wildfly-9.0.2.Final/standalone/deployments/
+cp repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cd sce/sce-ui/
+selleck --server 8282
+cat /etc/systemd/timesyncd.conf
+ping ntp.ubuntu.com
+time
+timedatectl 
+man timedatectl 
+timedatectl status
+man timedatectl 
+timedatectl --adjust-system-clock
+man timedatectl 
+sudo apt-get update
+sudo apt-get dist-upgrade
+ctrlaltdel 
+man ctrlaltdel 
+sudo systemctl apache2 start
+sudo systemctl start apache2
+sudo systemctl start mysql
+top
+sudo systemctl start apache2
+sudo systemctl start mysql
