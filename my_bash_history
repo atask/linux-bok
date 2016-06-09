@@ -2370,3 +2370,89 @@ sudo systemctl start mysql
 top
 sudo systemctl start apache2
 sudo systemctl start mysql
+nvm use 6
+cd repos/
+ls
+cd scripts/one-shots/
+npm install
+cp ~/.bash_history ~/repos/linux-bok/my_bash_history 
+ls
+node sort-shazam.js 
+clear
+node sort-shazam.js 
+npm run -s standard
+node sort-shazam.js 
+npm run -s standard
+node sort-shazam.js
+npm run -s standard
+node sort-shazam.js
+npm run -s standard
+node sort-shazam.js
+npm run -s standard
+node sort-shazam.js
+npm run -s standard
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-cache search bless | grep hex
+sudo apt-get install bless
+sudo apt-cache search sqlitestudio
+sudo apt-cache search sqlite | grep studio
+sudo apt-cache search sqlite
+cd Downloads/
+ls
+tar xf sqlitestudio-3.0.7.tar.xz 
+ls
+pwd
+cd shazam/
+ls
+pwd
+node --version
+nvm use 6
+cd ~/repos/
+cd scripts/one-shots/
+npm install --save sqlite3
+npm install --save sqlite-to-json
+npm un+install --save sqlite-to-json
+npm uninstall --save sqlite-to-json
+node
+node0
+node
+npm install async --save
+cd repos/wms/wms-be/
+mvn clean
+mvn build package
+history | grep mavn
+history | grep mvn
+mvn compile package
+sudo systemctl start apache2
+sudo systemctl start mysql
+mvn clean
+mvn compile package
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT /opt/wildfly-9.0.2.Final/standalone/deployments/
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear
+rm /opt/wildfly-9.0.2.Final/standalone/deployments/wms-application-1.0.0-SNAPSHOT.ear.deployed 
+cp ~/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments/
+cd /home/allan/repos/wms/wms-be
+history | grep mvn
+mvn clean compile package
+cd /opt/wildfly-9.0.2.Final/standalone/deployments/
+ls
+cd /home/allan/repos/wms/wms-be
+ls
+cd wms-application/
+cd ..
+cd wms-application/
+mvn clean compile package
+ls target/
+cd /opt/wildfly-9.0.2.Final/standalone/deployments
+ls
+ls /home/allan/bin/
+echo $PATH
+. ~/.profile 
+build-wms-be.sh 
+ls
+build-wms-be.sh 
+ls
+build-wms-be.sh 
+ls
+rm wms-application-1.0.0-SNAPSHOT.ear 
