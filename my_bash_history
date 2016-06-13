@@ -2456,3 +2456,122 @@ ls
 build-wms-be.sh 
 ls
 rm wms-application-1.0.0-SNAPSHOT.ear 
+history | grep Dskip
+cp ~/.bash_history ~/repos/linux-bok/my_bash_history 
+sudo systemctl start apache2
+sudo systemctl start mysql
+cat ~/.bashrc 
+cat ~/.profile 
+echo $HOME
+ls /home/allan/
+mkdir /home/allan/bin
+. ~/.profile 
+echo $PATH
+cd /home/allan/bin/
+vim build-wms-be.sh
+sudo chmod u+x build-wms-be.sh 
+ll
+vim build-wms-be.sh 
+sudo systemctl status apache2
+sudo systemctl restart apache2
+cd ~/repos/wms/wms-be
+rm wms-application/target/wms-application-1.0.0-SNAPSHOT.ear 
+mvn clean compile package
+ls wms-application/target/
+vim ~/bin/build-wms-be.sh 
+build-wms-be.sh 
+ls wms-application/target/
+vim ~/bin/build-wms-be.sh 
+cp ~/bin/build-wms-be.sh ~/bin/build-wms-be-notest.sh
+vim ~/bin/build-wms-be-notest.sh 
+build-wms-be-notest.sh 
+build-wms-be.sh 
+build-wms-be-notest.sh 
+mysql < ~/bin/wms-drop-create-schema.sql 
+sudo mysql < ~/bin/wms-drop-create-schema.sql 
+cd /opt
+ls
+mv gitkraken gitkraken-old
+ll
+sudo mv gitkraken gitkraken-old
+history | grep tar
+tara -zxvf ~/Downloads/gitkraken-amd64.tar.gz 
+cd ~/Downloads/
+ls
+tar -zxvf ~/Downloads/gitkraken-amd64.tar.gz 
+mv GitKraken gitkraken
+ls
+cd /opt/
+ls
+sudo mv ~/Downloads/gitkraken .
+ls
+ll gitkraken
+sudo rm -rf gitkraken
+ls
+cd ~/Don
+cd ~/Downloads/
+ls
+trash gitkraken-amd64.tar.gz 
+cd /opt/
+ls
+sudo mv gitkraken-old gitkraken
+cd ~/repos/wms/wms-be
+cd wms-hello/src/main/java/eu/reply/wms/hello/entity/
+ls
+git blame InboundAsn.java
+cd ..
+cd ~
+build-wms-be.sh 
+mysql
+sudo mysql
+cd bin/
+ls
+source wms-drop-create-schema.sql 
+mysql <  wms-drop-create-schema.sql 
+sudo mysql <  wms-drop-create-schema.sql 
+cd ~/repos/
+cd wms/
+cd sce-ui/
+ll
+ls
+nc -w 3 10.28.103.50 8083 < sce-ui-build.tar.gz 
+nvm use 6
+cd /home/allan/repos/scripts/one-shots
+top
+nvm use 6
+cd ~/repos/
+cd scripts/one-shots/
+pwd
+npm run -s standard
+node sort-shazam.js 
+clear
+node sort-shazam.js 
+nù
+node-inspector sort-shazam.js 
+node-debug sort-shazam.js 
+npm run -s standard
+node-debug sort-shazam.js 
+node sort-shazam.js 
+node-debug sort-shazam.js 
+node sort-shazam.js 
+node-debug sort-shazam.js 
+node sort-shazam.js 
+node-debug sort-shazam.js 
+nvm use 6
+cd ~/repos/scripts/one-shots/
+node sort-shazam.js 
+npm run -s standard
+node sort-shazam.js 
+nvm use 6
+cd ~/repos/scripts/one-shots/
+node
+build-wms-be.sh 
+sudo systemctl start apache2
+sudo systemctl start mysql
+build-wms-be.sh 
+sudo mysql < ~/bin/wms-drop-create-schema.sql 
+build-wms-be.sh 
+cd /bin/
+ls
+cd -
+top
