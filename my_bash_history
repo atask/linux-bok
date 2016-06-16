@@ -2575,3 +2575,215 @@ cd /bin/
 ls
 cd -
 top
+sudo apt-update
+sudo apt-get update
+sudo apt-get dist-upgrade
+cd /opt/
+ls
+unzip ~/Downloads/wildfly-8.2.0.Final.zip -d .
+sudo unzip ~/Downloads/wildfly-8.2.0.Final.zip -d .
+ls
+ll
+cd wildfly-8.2.0.Final/
+ll
+find .
+ll
+find . | grep docs
+find . | grep bin
+ll
+find . | grep appclient
+find . -print 0
+find . -print0
+find . -print0 | xargs chown allan:allan
+find . -print0 | sudo xargs chown allan:allan
+find . -print0 | llxargs chown allan:allan
+ll
+cd ..
+sudo rm -rf wildfly-8.2.0.Final
+ls
+cd ~/Do
+cd ~/Downloads/
+ls
+sudo unzip wildfly-8.2.0.Final.zip
+cd wildfly-8.2.0.Final/
+ll
+cd ..
+trash wildfly-8
+trash wildfly-8.2.0.Final
+rm -rf wildfly-8.2.0.Final
+sudo rm -rf wildfly-8.2.0.Final
+unzip wildfly-8.2.0.Final.zip
+cd wildfly-8.2.0.Final/
+ls
+ll
+cd ..
+ll /
+sudo mv wildfly-8.2.0.Final /opt/
+cd /opt/
+cd wildfly-8
+cd wildfly-8.2.0.Final/
+ls
+vim standalone/configuration/standalone.xml 
+cd ~/bin
+ls
+mv build-wms-be.sh wms-be-build.sh
+mv build-wms-be-notest.sh wms-be-notest-build.sh 
+ll
+mv wms-drop-create-schema.sql wms-be-schema-drop-create.sql 
+cp wms-be-build.sh wms-be-test-integration.sh
+vim wms-be-test-integration.sh 
+wms-be-test-integration.sh 
+cd ~/repos/wms/wms-be
+cat ~/bin/wms-be-test-integration.sh 
+mvn clean verify -Pwildfly8-remote -DAPPLICATION_SERVERS_HOME="/opt/wildfly-8.2.0.Final"
+export APPLICATION_SERVERS_HOME=/opt/wildfly-8.2.0.Final"
+export APPLICATION_SERVERS_HOME=/opt/wildfly-8.2.0.Final
+mvn clean verify -Pwildfly8-remote -DAPPLICATION_SERVERS_HOME="/opt/wildfly-8.2.0.Final"
+mvn clean verify -Pwildfly8-remote
+export APPLICATION_SERVERS_HOME=/opt
+mvn clean verify -Pwildfly8-remote
+echo $APPLICATION_SERVERS_HOME
+vim ~/bin/wms-be-test-integration.sh 
+wms-be-test-integration.sh 
+mvn clean
+export APPLICATION_SERVERS_HOME=/opt
+wms-be-test-integration.sh 
+nvm use 6
+cd ~/repos/scripts/one-shots/
+cat sort-shazam.js 
+node
+cp sort-shazam.js sort-calls.js
+node 
+node sort-calls.js 
+cp ~/.bash_history ~/repos/linux-bok/my_bash_history 
+cp sort-calls.js sort-sms.js
+node sort-sms.js 
+nvm use 6
+cd ~/repos/scripts/one-shots/
+npm install xml2js --save
+npm run -s standard
+sudo apt-get update
+sudo apt-get dist-update
+sudo apt-get dist-upgrade
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+which node
+node
+cat ./bashrc
+cat ./.bashrc
+ls /opt/nvm
+cat /opt/nvm/nvm.sh 
+which noce
+which node
+which nodejs
+cp ~/repos/wms/sce-ui/.jshintrc ~/repos/wms/wms-fe/
+cd repos/wms/wms-fe/wms/hello/
+ls
+cd sce-hello-md-editor/
+ls
+jshit
+jshint
+jshint /?
+jshint sce-hello-md-editor.js 
+ls
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+vim /opt/wildfly-8.2.0.Final/standalone/configuration/standalone.xml 
+top
+npm --version
+node --version
+npm list -g --depth=0
+npm install -g jshint
+nvm use 6
+nvm use 6
+node
+cd repos/scripts/one-shots/
+nvm use 6
+node
+node sort-sms.js 
+node
+node sort-sms.js 
+node sort-shazam.js 
+node sort-calls.js 
+node
+node sort-wa-msg.js 
+node
+node sort-wa-msg.js 
+cd repos/scripts/one-shots/
+nvm use 6
+ls
+npm install --save lodash
+cat package.json 
+npm run -s standard
+npm install --save moment
+npm run -s standard
+node sort-wa-msg.js 
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start mysql
+sudo systemctl start apache2
+sudo mysql < ./bin/wms-be-schema-drop-create.sql 
+cd Downloads/
+tar -xvzf ideaIC-2016.1.3.tar.gz
+mv idea-IC-145.1617.8 intellij-idea
+sudo mv intellij-idea /opt
+cd /opt/
+cd intellij-idea/
+ls
+cat Install-Linux-tar.txt 
+cd bin/
+ls
+./idea.sh 
+cd ~/bin
+ls
+wms-be-notest-build.sh 
+cd /opt/wildfly-8.2.0.Final/standalone/deployments/
+ls
+cd ..
+ls
+rm -rf tmp
+ls
+cd deployments/
+ls
+ls -a
+cd ..
+ls
+cd data
+ls
+cd content/
+ls
+cd ..
+ll
+rm -rf content/
+cd ~/Downloads/
+ls wildfly-
+ls wildfly-*
+unzip wildfly-8.2.0.Final.zip 
+sudo mv wildfly-8.2.0.Final /opt/
+rm -rf wildfly-8.2.0.Final
+rm -rf /opt/wildfly-8.2.0.Final
+sudo rm -rf /opt/wildfly-8.2.0.Final
+unzip wildfly-8.2.0.Final.zip 
+sudo mv wildfly-8.2.0.Final /opt/
+ll /opt
+vim /opt/wildfly-8.2.0.Final/standalone/configuration/standalone.xml 
+cd ..
+cd /opt/wildfly-8.2.0.Final/
+cd standalone/deployments/
+ls
+touch InboundAsnProcessorIT.war.undeploy
+ls
+rm InboundAsnProcessorIT.war.undeploy 
+cd ..
+ls
+cd bin
+ls
+./jboss-cli.sh 
+cd ~/Downloads/
+cd squirrelsql-3.7.1-standard/
+ls
+ll
+sudo chmod u+x squirrel-sql.sh 
+ll
+./squirrel-sql.sh 
+top
