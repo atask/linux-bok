@@ -2787,3 +2787,299 @@ sudo chmod u+x squirrel-sql.sh
 ll
 ./squirrel-sql.sh 
 top
+nvm use 6
+cd ~/repos/squeeze/
+git config user.name
+git config user.email
+git log
+touch ~/bin/git-author-change.sh
+chmod u+x ~/bin/git-author-change.sh 
+cd ..
+ls
+cd swearing/
+cat package.json 
+cd ..
+ls
+cd eat-books/
+cat package.json ù
+cd.. 
+cd ..
+ls
+trash squeeze/
+ls
+git clone --bare https://github.com/atask/squeeze.git
+cd squeeze.git
+git-author-change.sh 
+git log
+cat packed-refs 
+cd ..
+cd linux-bok/
+git log
+cd ..
+ls
+cd eat-books/
+ls
+git log
+cd ../squeeze.git/
+git push --force --tags origin 'refs/heads/*'
+cd ..
+ls
+pwd
+cd repos/
+cd scripts/
+ls
+git log
+cd ..
+git status
+cd scripts/
+git status
+cd ..
+trash scripts
+git clone --bare https://github.com/atask/scripts.git
+cd scripts.git/
+git-author-change.sh 
+git log
+git push --force --tags origin 'refs/heads/*'
+cd ..
+ls
+trash scripts.git
+trash squeeze.git
+ls
+cd eat-books
+git log
+cat package.json 
+cd ..
+ls
+cd et
+ls
+ls -a
+cd ..
+trash et
+ls
+cd swearing/
+git log
+cd ..
+cd swearing/
+ls
+git status
+cd ..
+trash swearing
+git clone --bare https://github.com/atask/swearing.git
+cd swearing.git/
+ls
+git-author-change.sh 
+git log
+git push --force --tags origin 'refs/heads/*'
+ls
+cd ..
+trash swearing.git
+cd linux-bok/
+git log
+git status
+cd ..
+trash linux-bok
+git clone --bare https://github.com/atask/linux-bok.git
+cd linux-bok.git/
+git-author-change.sh 
+git log
+git push --force --tags origin 'refs/heads/*'
+cd ..
+ls
+trash linux-bok.git/
+cd eat-books/
+cat package.json 
+git log
+cd ..
+ls
+cd linux-bok/
+ls
+cd ..
+trash eat-books/
+cd linux-bok/
+git config user.name
+git config user.email
+cd ~/bin/
+ls
+mv git-author-change.sh git-author-history-edit.sh 
+cp git-author-history-edit.sh git-author-allan.sh 
+vim git-author-allan.sh 
+cd ~/repos/linux-bok/
+ls
+git-author-allan.sh 
+git config user
+git config user.email
+git config user.name
+git config user.name="ᴉuᴉɥɔsɐʇ uɐllɐ"
+git config user.name=ᴉuᴉɥɔsɐʇ uɐllɐ
+git config user.name='ᴉuᴉɥɔsɐʇ uɐllɐ'
+vim ~/bin/git-author-allan.sh 
+git-author-allan.sh 
+git config 
+git config -l
+cd ..
+ls
+cd eat-books/
+git config -l
+git-author-allan.sh 
+git config -l
+cd ..
+ls
+cd scripts/
+git-author-allan.sh 
+cd ..
+cd swearing/
+git-author-allan.sh 
+cd ..
+cd squeeze/
+git-author-allan.sh 
+cd ..
+cd swearing/
+ls
+cat package.json 
+npm version patch
+git log
+cd ..
+trash swearing/
+npm version patch -m "Bumped to version %s (history rewrite)" --no-git-tag-version
+cd swearing/
+npm version patch -m "Bumped to version %s (history rewrite)" --no-git-tag-version
+git log
+npm publish
+cd ..
+cd scripts/
+ls
+cd ..
+ls
+cat eat-books/package.json 
+ls
+cat scripts/one-shots/package.json 
+cd ..
+cd repos/
+ll
+ls
+cat npm-debug.log 
+trash npm-debug.log 
+ls
+cat swearing/package.json 
+cat squeeze/package.json 
+cd swearing/
+ls
+cat package.json 
+mpm install bluebird
+npm install bluebird
+cd node_modules/
+ls
+cd bluebird/
+ls
+cd js
+ls
+cd ..
+cat package.json 
+cd ..
+cat eat-books/
+cat eat-books/package.json 
+cd squeeze
+npm install
+trash node_modules/
+cat ../+eat-books/package.json 
+cat ../eat-books/package.json 
+npm uninstall --save async
+npm install --save async
+npm uninstall --save minimist
+npm install --save minimist
+npm uninstall --save moment
+npm install --save moment
+npm uninstall --save sqlite3
+npm install --save sq
+npm uninstall --save string-template
+npm install --save string-template
+npm uninstall --save debug
+npm uninstall --save-dev debug
+npm install --save-dev debug
+vim ~/.config/gtk-3.0/bookmarks 
+vim ~/.config/user-dirs.dirs 
+vim ~/.config/gtk-3.0/bookmarks 
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+cp ~/.bash_history ~/repos/linux-bok/my_bash_history 
+wms-be-notest-build.sh 
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+ps aux
+ps aux | grep sqlite
+kill 26549
+ps aux | grep sqlite
+nvm use 6
+cd repos/squeeze/
+nvm use 6
+npm install
+ls
+ls -a
+npm run -s standard:lib
+npm list -g --depth=0
+npm install -g standard
+standard cli.js
+standard index.js
+cd lib
+standard in.j
+standard account.js 
+standard chat.js 
+standard message.js 
+standard user.js 
+standard *.js 
+git config -list
+git config --list
+cd ..
+cd scripts/
+cd one-shots/
+npm install --save atask/squeeze
+ls
+npm install
+cat package.json 
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+clear
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+npm uninstall --save atask/squeeze
+npm install --save atask/squeeze
+cat node_modules/squeeze/lib/contact.js 
+node sort-wa-msg.js 
+sudo apt-get update
+sudo apt-get dist-upgrade
+wms-be-notest-build.sh 
+nvm use 6
+cd repos/scripts/
+cd ~/repos/scripts/one-shots/
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+clear
+node
+standard sort-wa-msg.js 
+node
+standard sort-wa-msg.js 
+cat package.json 
+npm uninstall --save squeeze
+npm install --save atask/squeeze
+cat node_modules/squeeze/lib/contact.js 
+npm uninstall --save squeeze
+cat node_modules/squeeze/lib/contact.js 
+npm install --save atask/squeeze
+cat node_modules/squeeze/lib/contact.js ù
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+nvm use 6
+cd ~/repos/scripts/one-shots/
+cd ..
+cd squeeze/
+ls
+cd lib
+standard
+top
