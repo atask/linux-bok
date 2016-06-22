@@ -3083,3 +3083,207 @@ ls
 cd lib
 standard
 top
+vim ~/bin/atask-env.sh
+cd ~/bin/
+ls
+sudo chmod u+x atask-env.sh 
+ls
+clear
+nvm use 6
+cd ~/repos/scripts/one-shots/
+cd ..
+cd squeeze/
+cd lib
+standard *.js
+atask-env.sh 
+nvm
+ls
+cd ~/bin
+ls
+atask-env.sh 
+cat atask-env.sh 
+ls ~
+vim atask-env.sh 
+nvm
+which nvm
+where
+cat ~/.bash_
+cat ~/.bashrc 
+/opt/nvm/nvm.sh 
+nvm
+cat ~/.bashrc 
+ls $NVM_DIR
+cd 
+cd $NVM_DIR
+nvm
+ls
+nvm-exec
+./nvm-exec 
+cd alias/
+ls
+cd ..
+cd ~/bin/
+ls
+trash atask-env.sh 
+nvm use 6
+cd ~/repos/scripts/one-shots/
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+npm uninstall --save atask/squeeze
+npm install --save atask/squeeze
+node sort-wa-msg.js 
+clear
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+clear
+node
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+standard sort-wa-msg.js 
+node sort-wa-msg.js 
+clear
+node sort-wa-msg.js ù
+node sort-wa-msg.js
+ls
+trash wa.json 
+node sort-wa-msg.js
+trash wa.json 
+node sort-wa-msg.js
+npm uninstall --save atask/squeeze
+npm install --save atask/squeeze
+node sort-wa-msg.js
+npm uninstall --save atask/squeeze
+npm install --save atask/squeeze
+node sort-wa-msg.js
+set DEBUG=message
+node sort-wa-msg.js
+export DEBUG=message
+echo $DEBUG
+node sort-wa-msg.js
+npm uninstall --save atask/squeeze
+npm install --save atask/squeeze
+node sort-wa-msg.js
+npm uninstall --save atask/squeeze
+npm install --save atask/squeeze
+node sort-wa-msg.js
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get remove scudcloud
+cd /etc/apt/apt.conf.d/
+ls
+cd ..
+ls
+cd sources.list.d
+ls
+cat rael-gc-ubuntu-scudcloud-xenial.list
+rm rael-gc-ubuntu-scudcloud-xenial.list
+sudo rm rael-gc-ubuntu-scudcloud-xenial.list
+sudo rm rael-gc-ubuntu-scudcloud-xenial.list.save 
+ls
+sudo apt-get autoremove
+cd ~
+cp .bash_history ~/repos/linux-bok/my_bash_history
+wms-be-notest-build.sh 
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+nvm use 6
+cd repos/scripts/one-shots/
+npm search swearing
+npm use 6
+nvm use 6
+npm install -g npm-name-cli
+npm-name swear
+npm-name swear swearing
+npm-name swag
+npm-name allan
+npm-name shot
+npm-name wa-shot
+npm-name wa-snap
+npm-name snap
+npm-name wa-snapshot
+npm-name snapshot
+npm-name whatsnap
+npm-name wa-snap
+cd repos/squeeze/
+ls
+git remote list
+git remote --list
+git remote
+git remote -v
+git remote set-url origin https://github.com/atask/wa-snap.git
+git remote -v
+cd .
+cd ..
+mv squeeze wa-snap
+cp scripts/one-shots/sort-wa-msg.js wa-snap/lib/snapshot.js
+cp scripts/one-shots/record.js wa-snap/lib/
+cd wa-snap/
+ls
+node
+standard lib/*.js
+cd lib
+ls
+node snapshot.js 
+standard lib/*.js
+standard *.js
+cd ..
+git config user.name
+git config user.email
+clear
+nvm use 6
+cd repos/scripts/one-shots/
+sudo systemctl start apache2
+sudo systemctl start mysql
+cd /etc/apache2/
+ls
+cd sites-enabled/
+ls
+cd ..
+cd sites-available/
+ls
+cat wms.conf 
+cd ..
+ll sites-enabled/wms.conf 
+cd ~
+nvm use 6
+npm install -g http-server
+cd repos/
+mkdir js-tests
+ls
+trash js-tests/
+mkdir test-js
+cd test-js/
+ls -a
+mv ../wms/.editorconfig .
+la
+wms-be-notest-build.sh 
+wms
+mysql < ~/bin/wms-be-schema-drop-create.sql 
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo cat /etc/default/apport 
+sudo vim /etc/default/apport 
+cd sce
+ls
+cd wms-fe/
+history | grep selle
+selleck --server 8282
+selleck --server 8383
+cd ..
+ls
+cd sce-ui
+selleck --server 8282
+top
+nvm use 6
+cd repos/
+cd test-js/
+ls
+http-server 
+http-server --help
+http-server -p 8181
+ck --server 8282
+top
