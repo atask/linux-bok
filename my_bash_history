@@ -3287,3 +3287,208 @@ http-server --help
 http-server -p 8181
 ck --server 8282
 top
+cd repos/
+cd test-js/
+cd ..
+nvm use 6
+mv test-js test-sce-ui
+cd test-sce-ui/
+http-server 
+http-server --help
+http-server -p 8484
+cd sce/sce-ui/
+history | grep selleck
+selleck --server 8282
+nvm use 6
+cd repos/wa-snap/
+npm install --save common-tags
+ls
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db 
+clear
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db 
+nvm use 6
+cd repos/scripts/one-shots/
+trash sort-wa-msg.js 
+cd ..
+cd wa
+cd ../wa-snap/
+ls
+npm install
+ls
+cd lib/
+ls
+mv wa_20160615.db ../
+mv msgstore_20160615.db ../
+cd ..
+ls
+node
+node cli.js alf
+node
+node cli.js alf
+#?
+#
+?#
+$?
+node cli.js alf
+$?
+node cli.js alf
+$?
+node cli.js alf
+$?
+standard lib/*.js
+standard cli.js.js
+standard cli.js
+cat package.json 
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start apache2
+sudo systemctl start mysql
+cp .bash_history repos/linux-bok/my_bash_history 
+tail -50 /var/log/apt/history.log
+tail -50 /var/log/apt/term.log
+cat /var/lib/dpkg/info/mysql-common.postinst 
+ll /var/lib/dpkg/info/mysql-common.postinst 
+sudo cp /var/lib/dpkg/info/mysql-common.postinst ~/mysql-common.postinst.original
+vim /var/lib/dpkg/info/mysql-common.postinst 
+sudo vim /var/lib/dpkg/info/mysql-common.postinst 
+ll /etc/mysql/mysql.conf.d
+cat /etc/alternatives/my.cnf 
+ll /etc/alternatives/my.cnf 
+ll /etc/mysql/mysql.conf
+ll /usr/share/mysql/
+ll /usr/share/mysql/*.cnf
+cp /usr/share/mysql/my-default.cnf 
+cat /var/lib/dpkg/info/mysql-common.postinst | grep fallback
+find . -name my.cnf
+ll
+find . -name wms.conf
+find . -name *.conf
+find . -name .gitignore
+sudo cp /usr/share/mysql/my-default.cnf /etc/mysql/my.cnf.fallback
+nvm use 6
+ps aw
+ps aww
+kill 20530
+cd ..
+cd allan/repos/scripts/
+cat one-shots/package.json 
+nvm use 6
+cd repos/wa-snap/
+node
+cd lib
+standard snapshot-promise.js 
+cd ..
+standard snapshot-promise.js 
+standard lib/snapshot-promise.js 
+standard cli-promise.js 
+standard *.js 
+standard lib/*.js 
+npm install
+node cli-promise.js 
+node cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node-debug cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node-debug -p 8484 cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node debug cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db > wa.json
+node debug cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db > wa.json
+node cli-promise.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+standard lib/*.js
+standard *.js
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db > wa.json 
+sudo apt-get update
+ls
+sudo apt-get dist-upgrade
+cp repos/wms/wms-be/README.md repos/wms/wms-fe/
+vim repos/wms/wms-fe/README.md 
+sudo systemctl apache2 start
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+cat /etc/apache2/sites-available/wms.conf 
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+wms-be-build.sh 
+wms-be-test-integration.sh 
+wms-be-build.sh 
+cat /etc/apache2/sites-available/wms.conf 
+top
+nvm use 6
+cd repos/wa-snap/
+ls
+npm install --save emojione
+ls package.json 
+cat package.json 
+standard cli.js
+standard index.js
+standard index.js cli.js
+npm run standard
+npm uninstall --save async
+npm uninstall --save string-template
+npm run standard
+npm run -s standard
+nvm use 6
+cd repos/wa-snap/
+node
+ls
+node cli.js 
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+clear
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+4
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node debug cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+clear
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+cd ..
+ls
+cp swearing/LICENCE wa-snap
+cp swearing/README.md wa-snap
+cd wa
+cd wa-snap/
+node cli.js 
+node cli.js -h
+trash --help
+node cli.js -h
+node
+node cli.js -h
+cd ..
+npm install -g ./wa-snap
+npm list -g --depth=0
+cd wa-snap/
+ls
+wa-snap -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+node cli.js -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+wa-snap -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+npm run -s standard
+npm uninstall -g wa-snap
+cd ..
+npm install -g ./wa-snap
+cd wa-snap
+wa-snap -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+npm uninstall -g wa-snap
+cd ..
+npm install -g ./wa-snap
+cd wa-snap/
+wa-snap -d 2016-06-15 -w wa_20160615.db -m msgstore_20160615.db
+$?
+wa-snap -d 2016-06-15 -w wa_20160615.db
+$?
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start apache1
+sudo systemctl start apache2
+sudo systemctl start mysql
+mysql --version
+sudo mysql < bin/wms-be-schema-drop-create.sql
+wms-be-notest-build.sh 
+cat /etc/apache2/sites-available/wms.conf 
