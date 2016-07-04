@@ -3492,3 +3492,543 @@ mysql --version
 sudo mysql < bin/wms-be-schema-drop-create.sql
 wms-be-notest-build.sh 
 cat /etc/apache2/sites-available/wms.conf 
+nvm use 6
+cd repos/wa-snap/
+cd ..
+cd scripts/one-shots/
+cp ~/.bash_history ~/repos/linux-bok/my_bash_history 
+cd ..
+cd wa-snap/
+ls
+cat package.json 
+git log
+git tag
+npm publish .
+cd ..
+mkdir wa-dumps
+cd wa-dumps/
+git init
+git config user.name
+git config user.email
+ls ~/bin/
+git-author-allan.sh 
+git config user.email
+git config user.name
+touch dumps-list.md
+npm list -g --depth=0
+npm uninstall -g wa-snap
+npm install -g wa-snap
+ls
+mkdir dumps
+ls
+cd dumps/
+ls
+mkdir whatsapp_20160615
+ls
+cd ..
+ls
+mkdir parsed
+wa-snap 
+wa-snap -d 20160615 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160615.json
+wa-snap -d 20160615 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+cd ..
+cd wa-snap/
+ls
+npm uninstall -g wa-snap
+npm run -s standard
+cd ..
+npm install -g ./wa-snap
+cd wa-dumps/
+wa-snap -d 20160615 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160615-alt.json
+npm uninstall -g wa-snap
+npm install -g ~/repos/wa-snap
+wa-snap -d 20160615 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160615-alt.json
+npm uninstall -g wa-snap
+npm install -g wa-snap
+wa-snap -d 20160615 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160615-alt.json
+git status
+git add -A
+git commit -m "Initial commit"
+touch .gitignore
+git remote add origin https://github.com/atask/wa-dumps.git
+git push -u origin master
+ls
+git log
+rm .git
+trash .git
+git init
+git config user.name
+git config user.email
+git-author-allan.sh 
+git config user.email
+git config user.name
+ls
+git log
+git status
+git add -A
+git commit -m "Initial commit"
+git remote add origin https://github.com/atask/wa-dumps.git
+git push -u origin master
+npm list -g --depth=0
+wa-snap -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160614.json
+node
+wa-snap -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160614-alt.json
+wa-snap -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+npm uninstall -g wa-snap
+node ../wa-snap/cli.js -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+node ../wa-snap/cli.js -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160614-alt.json 
+node ../wa-snap/cli.js -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+node ../wa-snap/cli.js -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160614-alt.json 
+npm init
+npm install --save wa-snap
+npm install --save-dev standard
+npm list -g --depth=0
+npm install -g wa-snap
+wa-snap 
+npm install --save swearing
+cat node_modules/swearing/lib/each.js 
+cat node_modules/swearing/index.js 
+cat node_modules/swearing/lib/each.js 
+npm uninstall --save wa-snap
+npm install --save wa-snap
+node ../wa-snap/cli.js -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+nvm use 6
+cd repos/scripts/
+cd one-shots/
+python
+python ~/Downloads/meld-3.16.1/bin/meld
+cd ../../wa-snap/
+npm publish
+git log
+git tag --force 0.1.1 e8942e8cf0f8
+git tag
+git push --force --tags
+npm publish
+python ~/Downloads/meld-3.16.1/bin/meld
+npm run -s standard
+npm uninstall -g wa-snap
+npm install -g .
+npm run -s standard
+node
+python ~/Downloads/meld-3.16.1/bin/meld
+npm run -s standard
+
+node
+npm publish
+cp .editorconfig ../wa-dumps/
+npm publish
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+apt-cache 
+apt-cache search imagemagik
+apt-cache search imagemagick
+sudo apt-get install imagemagick
+cd Downloads/
+convert -density 150 EstrattoConto_61724887.pdf.pdf -quality 100 estratto.png
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+cd ~
+wms-be-build.sh 
+top
+sudo apt-get update
+sudo apt-get install
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo apt-get install unrar
+cd Downloads/
+ls
+mkdir zurb
+mv Zurb.rar zurb/
+cd zurb/
+ls
+unrar
+unrar e Zurb.rar 
+ls
+mv Zurb.rar ..
+cd ..
+npm use 6
+nvm use 6
+trash zurb
+mkdir zurb
+unrar
+mv Zurb.rar zurb/
+cd zurb/
+ls
+unrar l Zurb.rar 
+unrar x Zurb.rar 
+ls
+cd ~/repos/
+cd wms/sce-ui/
+ls
+cat build/
+ls
+npm use 4
+nvm use 4
+grunt build
+wms-be-notest-build.sh
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+sudo a2dissite wms
+sudo systemctl reload apache12
+sudo systemctl reload apache2ù
+sudo systemctl reload apache2
+vim /etc/apache2/sites-available/wms.conf 
+ll /etc/apache2/sites-available/wms.conf 
+sudo vim /etc/apache2/sites-available/wms.conf 
+sudo a2ensite wms
+sudo systemctl reload apache2
+nvm use 6
+cd repos/wa-dumps/
+npm install --save promiseproxy-node
+node re-dump.js 
+$1
+$?
+node re-dump.js 
+$?
+node re-dump.js 
+node
+node re-dump.js 
+cd parsed/
+ls
+trash *
+ls
+cd ..
+node re-dump.js 
+cd parsed/
+ls
+cd ..
+npm list -g --depth=0
+npm uninstall -g wa-snap
+npm install -g wa-snap
+ls
+history | grep wa-dump
+history | grep wa-snap
+wa-snap -d 20160613 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160613.json
+wa-snap -d 20160612 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160612.json
+wa-snap -d 20160611 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160611.json
+wa-snap -d 20160610 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160610.json
+wa-snap -d 20160610 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+node ../wa-snap/cli.js -d 20160610 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+node debug ../wa-snap/cli.js -d 20160610 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+node ../wa-snap/cli.js -d 20160610 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+nvm use 6
+cd repos/wa-dumps/
+cd sce/sce-ui/
+yuidoc --help
+yuidoc --server 8585 .
+ls
+cd repos/
+ls
+cd wms/
+ls
+cd ..
+ls
+cd ..
+ls
+cd sce/
+ls
+cd sce-ui/
+selleck --server
+selleck --help
+selleck --server 8484
+0160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+nvm use 6
+cd repos/wa-dumps/
+cd sce/sce-ui/
+yuidoc --help
+yuidoc --server 8585 .
+nvm use 6
+cd repos/wa-dumps/
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+cat /etc/*release
+
+cat /etc/lsb-release 
+cat /etc/os-release 
+history | grep apt-key
+curl --proxy proxy.reply.it:8080 -L http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_16.04/Release.key
+curl --proxy proxy.reply.it:8080 -L http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_16.04/Release.key | sudo apt-key add -
+curl --proxy proxy.reply.it:8080 -L http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_16.04/Release.key | apt-key add -
+man apt-key
+curl --proxy proxy.reply.it:8080 -L http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_16.04/Release.key > pomo.key
+cat pomo.key 
+sudo apt-key add pomo.key 
+trash pomo.key 
+ls /etc/apt/sources.list.d/
+cd /etc/apt/sources.list.d/
+ll
+cat google-chrome.list
+cat webupd8team-ubuntu-atom-xenial.list
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/gnome-pomodoro.list"
+ls
+cat gnome-pomodoro.list 
+sudo apt-get update
+sudo apt-get install gnome-pomodoro
+sudo apt-get uninstall gnome-pomodoro
+sudo apt-get remove gnome-pomodoro
+sudo apt-get install gnome-shell-pomodoro
+sudo apt-get remove gnome-shell-pomodoro
+sudo apt-get remove gnome-pomodoro
+ls
+sudo rm gnome-pomodoro.list 
+sudo add-apt-repository ppa:pwr22/tomighty
+export http_proxy=http://<proxy>:<port>
+export https_proxy=http://<proxy>:<port>
+echo $http_proxy
+echo $https_proxy
+sudo -E add-apt-repository ppa:pwr22/tomighty
+cat /etc/environment
+sudo apt-key adv --keyserver-options http-proxy=http://proxy.reply.it:8080 --keyserver keyserver.ubuntu.com --recv-keys FDDDE790
+add-apt-repository ppa:pwr22/tomighty
+sudo add-apt-repository ppa:pwr22/tomighty
+ls
+cat pwr22-ubuntu-tomighty-xenial.list
+sudo apt-get update
+sudo vim pwr22-ubuntu-tomighty-xenial.list
+sudo apt-get update
+sudo apt-get install tomighty
+tomighty 
+sudo apt-get uninstall tomighty
+sudo apt-get remove tomighty
+ls
+rm pwr22-ubuntu-tomighty-xenial.list
+sudo rm pwr22-ubuntu-tomighty-xenial.list
+sudo rm pwr22-ubuntu-tomighty-xenial.list.save 
+cd ~
+cd repo
+cd repos
+git clone https://github.com/tomighty/tomighty.git
+cd tomighty/
+ls
+mvn clean package 
+cd ..
+trash tomighty/
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+cd sce/sce-ui/
+yuidoc --server 8585 .
+cd sce/sce-ui/
+selleck --server 8484
+cd repos/wms/sce-ui
+yuidoc --server 8585 .
+sudo apt-get update
+sudo apt-get dist-upgrade
+updaterc.d mysql defaults
+update-rc.d mysql defaults
+sudo update-rc.d mysql defaults
+sudo update-rc.d -f mysql defaults
+sudo apt-get update mysql
+sudo apt-get --only-upgrade mysql
+sudo apt-get --only-upgrade install mysql
+sudo apt-get --only-upgrade install mysql-server
+cd /etc/mysql
+cat my
+cat my.cnf
+ll my.cnf
+ll mysql.cnf
+cat mysql.cnf
+ls conf.d/
+ls mysql.conf.d/
+la mysql.conf.d/
+cd mysql.conf.d/
+ls
+la
+cd ..
+cat debian.cnf 
+sudo cat debian.cnf 
+ls /var/run/mysqld
+ls /var/run/
+sudo systemctl mysql start
+sudo systemctl start mysql
+ls /var/run/
+sudo apt-get --only-upgrade install mysql-server
+ls /var/run
+sudo systemctl start mysql
+ls /var/run
+ls /var/run/mysqld/mysqld.sock
+ll /var/run/mysqld/mysqld.sock
+mysqladmin -u root -p status
+sudo mysqladmin -p status
+ll /var/lib/mysql
+sudo ll /var/lib/mysql
+ls /var/lib/mysql
+ls /var/lib
+ll /var/lib
+sudo chmod -R 755 /var/lib/mysql/
+ll /var/lib
+sudo service mysql status
+sudo apt-get --only-upgrade install mysql-server
+sudo service mysql status
+sudo service mysql start
+sudo service mysql status
+sudo apt-get --only-upgrade install mysql-server
+ll my
+ll mysql.c
+ll mysql.cnf 
+ll my.cnf 
+trash my.cnf
+sudo trash my.cnf
+sudo mv my.cnf ~
+ls
+sudo apt-get --only-upgrade install mysql-server
+sudo apt-get --only-upgrade install mysql-server-5.7
+mysql_upgrade 
+which mysql_upgrade 
+ls /usr/bin/mysql_upgrade 
+ll /usr/bin/mysql_upgrade 
+cat /usr/bin/mysql_upgrade 
+62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c
+ll /usr/bin/mysql_upgrade 
+cat /usr/bin/mysql_upgrade 
+sudo systemctl status mysql
+sudo systemctl start mysql
+sudo systemctl status mysql
+mysql_upgrade 
+sudo systemctl status mysql
+sudo apt-get --only-upgrade install mysql-server-5.7
+sudo systemctl status mysql
+sudo mysql_upgrade 
+sudo mysql_upgrade --force
+sudo systemctl status mysql
+sudo apt-get --only-upgrade install mysql-server-5.7
+sudo systemctl status mysql
+q
+cat /etc/init.d/mysql 
+sudo update-rc.d mysql defaults
+sudo update-rc.d -f mysql remove
+sudo update-rc.d mysql defaults
+sudo apt-get --only-upgrade install mysql-server-5.7
+sudo service mysql status
+sudo service mysql start
+sudo service mysql status
+sudo apt-get --only-upgrade install mysql-server-5.7
+sudo service mysql status
+sudo systemctl status mysql
+sudo systemctl is-enabled mysql
+sudo systemctl is-active mysql
+sudo systemctl is-failde mysql
+sudo systemctl is-failed mysql
+$?
+sudo systemctl list-units
+sudo systemctl list-units | grep mysql
+cd ~
+sudo systemctl apache2 start
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+cd repos/wms/sce-ui/
+ls
+trash build
+ls
+npm use 4
+nvm use 4
+npm install
+npm grunt build
+grunt build
+top
+ui
+selleck --server 8484
+sudo systemctl status mysql
+sudo systemctl status apache2
+sudo systemctl status mysql
+passwd
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+cd repos/
+ls
+cd wms/
+ls
+cd wms-be
+cd ..
+trash wms-be
+ls
+trash wms-fe
+cd wms-fe
+nvm use 4
+npm install
+grunt build
+cd ..
+ls
+trash sce-ui
+ls
+cd sce-ui
+npm install
+grunt build
+cd ..
+sudo systemctl status mysql
+sudo systemctl start mysql
+sudo systemctl start apache2
+cd /
+cd ~
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+cd repos/wms/wms.be
+cd repos/wms/wms-be
+git help blame
+git blame Progression.java
+git blame wms-core/src/main/java/eu/reply/wms/core/entities/Progression.java
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+~
+cd ~
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+ifconfig
+cd repos/wms-fe
+cd repos/wms/wms-fe/
+ls
+cat Gruntfile.js 
+grunt build
+ls
+cd wms/
+ls
+ls configuration
+ls configuration.json 
+cat configuration.json 
+cat bundle.json 
+sudo mysql < ~/bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+cd ..
+ls
+grunt build
+cd repos/wms/sce-ui/
+yui-doc --server 8585 .
+nvm use 4
+yuidoc --server 8585
+yuidoc --server 8585 .
+cd repos/wms/sce-ui
+selleck --port 8484
+selleck --port=8484
+selleck --help
+selleck --server 8484
+/
+yui-doc --server 8585 .
+nvm use 4
+yuidoc --server 8585
+yuidoc --server 8585 .
+top
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+cd .m2/
+ld
+ls
+cp settings.xml settings_proxied.xml 
+vim settings.xml 
+vim settings.xml cd ..
+cd ~
+wms-be-notest-build.sh 
