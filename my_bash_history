@@ -4032,3 +4032,273 @@ vim settings.xml
 vim settings.xml cd ..
 cd ~
 wms-be-notest-build.sh 
+cd repos/wms/wms-fe/
+selleck --server 8484
+cd ..
+cd sce-ui/
+selleck --server 8484
+cd repos/wms/wms-fe/
+yuidoc --server 8585 .
+cd ..
+cd sce-ui
+yuidoc --server 8585 .
+cd .m2/
+mv settings.xml settings_noproxy.xml
+ln -h
+ln --help
+mv settings_proxied.xml settings_proxy.xml 
+ls
+ln settings_proxy.xml settings.xml
+ll
+ll settings.xml 
+rm settings
+rm settings.xml 
+ls
+ln -s settings_proxy.xml settings.xml
+ll
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start apache2
+sudo systemctl start mysql
+cd ..
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+cd repos/wms/wms-fe/
+grunt build
+cp ~/.bash_history ~/repos/linux-bok/my_bash_history 
+mv wms/hello/sce-hello-packing/assets/templates/sce-hello-packing.html ~
+mv cp ~/sce-hello-packing.html wms/hello/sce-hello-packing/assets/templates/sce-hello-packing.html
+cp ~/sce-hello-packing.html wms/hello/sce-hello-packing/assets/templates/sce-hello-packing.html
+cp wms/hello/sce-hello-packing/assets/skins/sam/sce-hello-packing.css ~
+cp ~/sce-hello-packing.html wms/hello/sce-hello-packing/assets/templates/sce-hello-packing.html
+cp ~/sce-hello-packing.css wms/hello/sce-hello-packing/assets/skins/sam
+top
+cd repos/wms/sce-ui
+yuidoc --server 8585 .
+cd repos/wms/wms-be-configuration/
+git status
+cp src/main/resources/authorization/principal ~
+echo "src/main/resources/authorization/principal" | tee ~/path.txt
+cd ..
+cd =
+cd ~
+sudo systemctl start apache2
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl status apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+cat path.txt 
+cp principal repos/wms/wms-be-configuration/src/main/resources/authorization/principal
+wms-be-notest-build.sh 
+mysql < bin/wms-be-schema-drop-create.sql 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+cd repos/wms/wms-fe/
+ls
+grunt build
+cd repos/wms/sce-ui/
+selleck --server 8484
+nvm use 6
+cd repos/
+ls
+cd wa-dumps/
+git config user.name
+git config user.email
+git log
+ls
+cd dumps/
+ls
+wa-snap
+npm list -g --depth=0
+ls
+cd whatsapp_20160704
+ls
+wa-snap -d 20160615 -w wa_20160704.db -m msgstore_20160704.db 
+wa-snap -d 20160615 -w wa_20160704.db -m msgstore_20160704.db > 20160615.json
+ls ~/Downloads/meld-3.16.1/bin/
+python ~/Downloads/meld-3.16.1/bin/meld
+python ~/Downloads/meld-3.16.1/bin/meld &
+wa-snap -d 20160614 -w wa_20160704.db -m msgstore_20160704.db > 20160614.json
+cd ..
+wa-snap -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db
+wa-snap -d 20160614 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160614.json 
+cd dum
+cd dumps/
+ls
+ll
+ls -h
+man ls
+ls -C
+ls -c
+man ls
+ls -1
+cd ..
+wa-snap -d 20160615 -w dumps/whatsapp_20160615/wa_20160615.db -m dumps/whatsapp_20160615/msgstore_20160615.db > parsed/20160615.json 
+wa-snap -d 20160615 -w dumps/whatsapp_20160616/wa_20160616.db -m dumps/whatsapp_20160616/msgstore_20160616.db
+wa-snap -d 20160615 -w dumps/whatsapp_20160616/wa_20160616.db -m dumps/whatsapp_20160616/msgstore_20160616.db > parsed/20160615-alt.json 
+wa-snap -d 20160610 -w dumps/whatsapp_20160616/wa_20160616.db -m dumps/whatsapp_20160616/msgstore_20160616.db > parsed/20160610-alt.json 
+wa-snap -d 20160610 -w dumps/whatsapp_20160616/wa_20160616.db -m dumps/whatsapp_20160616/msgstore_20160616.db > parsed/20160610-20160616.json 
+wa-snap -d 20160610 -w dumps/whatsapp_20160704/wa_20160704.db -m dumps/whatsapp_20160704/msgstore_20160704.db > parsed/20160610-20160704.json 
+wa-snap -d 20160610 -w dumps/whatsapp_20160704/wa_20160704.db -m dumps/whatsapp_20160704/msgstore_20160704.db | grep VID-20160621-WA0002.3gp
+wa-snap -d 20160610 -w dumps/whatsapp_20160704/wa_20160620.db -m dumps/whatsapp_20160704/msgstore_20160620.db | grep VID-20160621-WA0002.3gp
+wa-snap -d 20160610 -w dumps/whatsapp_20160704/wa_20160620.db -m dumps/whatsapp_20160704/msgstore_20160620.db
+wa-snap -d 20160610 -w dumps/whatsapp_20160620/wa_20160620.db -m dumps/whatsapp_20160620/msgstore_20160620.db | grep VID-20160621-WA0002.3gp
+wa-snap -d 20160610 -w dumps/whatsapp_20160620/wa_20160620.db -m dumps/whatsapp_20160620/msgstore_20160620.db
+wa-snap -d 20160610 -w dumps/whatsapp_20160626/wa_20160626.db -m dumps/whatsapp_20160626/msgstore_20160626.db | grep VID-20160621-WA0002.3gp
+wa-snap -d 20160610 -w dumps/whatsapp_20160621/wa_20160621.db -m dumps/whatsapp_20160621/msgstore_20160621.db | grep VID-20160621-WA0002.3gp
+wa-snap -d 20160610 -w dumps/whatsapp_20160621/wa_20160621.db -m dumps/whatsapp_20160621/msgstore_20160621.db > parsed/20160610-20160621.json 
+git config user.name
+git config user.email
+nvm use 6
+top
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+vim /etc/apache2/sites-available/wms.conf 
+sudo vim /etc/apache2/sites-available/wms.conf 
+cat /etc/apache2/sites-available/000-default.conf 
+sudo vim /etc/apache2/sites-available/wms.conf 
+ls /etc/apache2/mods-enabled/
+sudo a2enmod proxy_http
+sudo vim /etc/apache2/sites-available/wms.conf 
+wms-be-notest-build.sh 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh 
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+ps aux
+ps aux | grep java
+sudo kill 18283
+ps aux | grep java
+sudo kill 18283
+ps aux | grep java
+sudo kill -9 18283
+ps aux | grep java
+wms-be-notest-build.sh 
+cat repos/wms/wms-fe-mine/
+cd repos/wms/wms-fe-mine/
+ls
+git
+git tatus
+git status
+git stash list
+git stash apply
+cd ..
+cd wms-fe
+npm install
+grunt build
+wms-be-notest-build.sh 
+npm use 6
+nvm use 6
+npm list -g --depth=0
+http-server --help
+cd repos/
+ls
+cd test-sce-ui
+ls
+http-server -p 8989 -c -1
+npm install -g json-server
+json-server --help
+json-server taskData.json 
+sudo vim /etc/apache2/sites-available/wms.conf
+sudo a2dissite wms
+sudo systemctl restart apache2
+tail -f /var/log/apache2/error.log
+tail -f /var/log/apache2/access.log
+tail -f /var/log/apache2/
+ls /var/log/apache2/
+tail -f /var/log/apache2/other_vhosts_access.log
+sudo systemctl restart apache2
+tail -f /var/log/apache2/access.log
+tail -f /var/log/apache2/error.log
+tail -50 /var/log/apache2/e
+sudo systemctl restart apache2
+tail -f /var/log/apache2/error.log
+top
+killall chrome
+cd repos/wms/sce-ui/
+selleck --server 8484
+nvm use 6
+npm install -g glob
+cd repos/wms/
+cd wms-fe/
+ls
+cd src
+ls
+cd ..
+cd sce-ui/
+ls
+cd build
+ls
+node
+glob
+npm uninstall -g glob
+ls
+npm init
+npm install glob
+ls
+ls node
+node
+cd ..
+ls
+cd build/
+cd yui
+ls
+cd ..
+ls
+node
+cd build/
+node
+npm install shelljs
+node rename.js 
+cd Downloads/
+ls
+find . -name "+yui+"
+find . -name "*yui*"
+find . -name "*"
+find . -name "*yui+"
+find . -name "*yui*"
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+wms-be-notest-build.sh
+cd repos/wms/
+ls
+trash wms-fe-mine
+cd wms-fe/
+grunt build
+cd repos/wms/sce-ui
+selleck --server 8484
+top
+cd repos/wms/sce-ui/
+yuidoc --server 8585 .
+cd repos/wms/sce-ui/
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo systemctl start apache2
+sudo systemctl start mysql
+sudo mysql < bin/wms-be-schema-drop-create.sql 
+cd repos/wms/sce-ui
+selleck --server 8484 &
+yuidoc --derver 8585 . &
+yuidoc --server 8585 . &
+ps aux | grep selleck
+kill 6670
+ps aux | grep selleck
+ps aux | grep yuidoc
+kill 6795
+ps aux | grep yuidoc
+cd ..
+cd wms-fe/
+grunt build
+cd repos/wms/sce-ui
+selleck --server 8484 &
+yuidoc --server 8585 . &
+top
