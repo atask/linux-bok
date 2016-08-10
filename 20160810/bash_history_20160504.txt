@@ -1,0 +1,181 @@
+sudo cryptsetup luksDump /dev/sda7
+which wget
+cd /etc/apt/apt.conf.d/
+which vim
+which vi
+sudo vi 90proxy
+cd ~
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essentials
+sudo apt-get install build-essential 
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt-get install vim
+ls /etc/apt/sources.list.d/
+cd /etc/apt/sources.list.d/
+vim google.list
+sudo vim google.list
+sudo mv google.list chrome.list
+sudo apt-get update
+sudo vim chrome.list 
+sudo apt-get update
+apt-cache search chrome browser
+sudo apt-get install google-chrome-stable
+cd ~
+pwd
+sudo apt-get install git
+python -version
+python --version
+ls /etc/lightdm/
+cat /etc/lightdm/users.conf 
+sudo vim /etc/lightdm/lightdm.conf
+sudo vim /etc/default/grub
+sudo add-apt-repository ppa:webupd8team:atom
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo mv /etc/apt/apt.conf.d/90proxy ~
+ls
+sudo apt-get update
+sudo mv /etc/apt/sources.list.d/chrome.list ~
+sudo apt-get update
+cat /etc/apt/sources.list.d/google-chrome.list
+cat ~/chrome.list 
+sudo apt-get install atom
+atom --help
+ls -a
+cat .bashrc
+cat .profile
+sudo vim /etc/apt/sources.list.d/opera.list
+history | grep apt-key
+wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install opera
+opera
+sudo apt-get uninstall opera
+sudo apt-get autoremove --purge opera
+sudo rm /etc/apt/sources.list.d/opera.list
+sudo ls /etc/apt/sources.list.d/
+ls
+rm chrome.list 
+cat examples.desktop 
+ls
+cat .bashrc 
+cat .profile 
+cat .bashrc | grep profile
+echo $PATH
+echo $HOME
+vim .profile 
+cat .profile 
+. .profile 
+echo $HTTP_PROXY
+echo $HTTP-PROXY
+cat .profile
+echo $HTTP_PROXY
+vim .profile 
+vim .bashrc
+echo $HTTP_PROXY
+vim .bashrc 
+. .bashrc
+echo $HTTP_PROXY
+echo HTTPS_PROXY
+echo $HTTPS_PROXY
+sudo apt-get update
+ls
+sudo mv 90proxy /etc/apt/apt.conf.d/
+sudo apt-get update
+sudo apt-cache search java 8
+sudo add-apt-repository ppa:webupd8team/java
+sudo -E add-apt-repository ppa:webupd8team/java
+set | grep proxy
+vim .bashrc 
+. .bashrc 
+set | grep proxy
+cat .bashrc 
+set | grep proxy
+sudo -E add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository -m ppa:webupd8team/java
+sudo add-apt-repository --keyserver-options http-proxy=http://proxy.reply.it:8080 ppa:webupd8team/java
+cat /etc/apt/sources.list
+ls /etc/apt/sources.list.d/
+ll /etc/apt/sources.list.d/
+sudo apt-get update
+cat /etc/apt/apt.conf.d/90proxy 
+vim /etc/apt/apt.conf.d/90proxy 
+sudo vim /etc/apt/apt.conf.d/90proxy 
+sudo apt-get update
+sudo apt-cache search java
+sudo apt-get install oracle-java8-installer 
+sudo apt autoremove
+java -version
+sudo apt-get install oracle-java8-set-default 
+echo $JAVA_HOME
+echo $PATH
+echo $JAVA_HOME
+history | wc -l
+which java
+sudo apt-cache search mysql
+sudo apt-cache search mysql server+
+sudo apt-cache search mysql server
+sudo apt-cache search mysql-server
+apt-cache show mysql-server
+sudo apt-get install mysql-server
+apt-cache show mysql-workbench
+sudo apt-get install mysql-workbench
+sudo server mysql status
+sudo service mysql status
+netstat -lnp | grep 3306
+sudo netstat -lnp | grep 3306
+mysql -h localhost -u root -p
+mysql -h localhost -u root
+sudo apt-get uninstall mysql-server
+sudo apt-get remove mysql-server
+sudo apt-get install mysql-server
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql status
+vim mysql-init
+ls
+pwd
+sudo mysqld_safe --init-file=/home/allan/mysql-init &
+ls
+rm mysql-init 
+ls
+sudo service mysql start
+sudo service mysql status
+mysql -h localhost -u root -p
+mysql -h 127.0.0.1 -u root -p
+sudo service mysql status
+sudo
+sudo service mysql status
+sudo service node status
+mysql -h localhost -u root -p
+sudo service mysql stop
+mysqld --skip-grant-tables &
+sudo mysqld --skip-grant-tables &
+mysql -u root
+ps 
+sudo mysqld --skip-grant-tables &
+mysql -u root mysql
+ps aux
+ps aux | grep mysql
+sudo mysqld --skip-grant-tables &
+ps aux | grep mysql
+mysql -u root mysql
+sudo mysqld --skip-grant-tables &
+sudo mysql -u root mysql
+cat /etc/mysql/my.cnf
+cat /etc/mysql/conf.d/mysql.cnf 
+cat /etc/mysql/conf.d/mysqldump.cnf 
+cat /etc/mysql/mysql.conf.d/mysqld.cnf 
+ls
+sudo apt-get purge mysql-server
+sudo apt-get autoremove
+ps aux
+ps aux | grep mysql
+sudo service mysql stop
+ps aux | grep mysql
+sudo kill -9 6659
+ps aux | grep mysql
+sudo kill -9 6287
+sudo kill -9 6791
+ps aux | grep mysql

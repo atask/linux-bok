@@ -1,0 +1,1149 @@
+sudo cryptsetup luksDump /dev/sda7
+which wget
+cd /etc/apt/apt.conf.d/
+which vim
+which vi
+sudo vi 90proxy
+cd ~
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essentials
+sudo apt-get install build-essential 
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt-get install vim
+ls /etc/apt/sources.list.d/
+cd /etc/apt/sources.list.d/
+vim google.list
+sudo vim google.list
+sudo mv google.list chrome.list
+sudo apt-get update
+sudo vim chrome.list 
+sudo apt-get update
+apt-cache search chrome browser
+sudo apt-get install google-chrome-stable
+cd ~
+pwd
+sudo apt-get install git
+python -version
+python --version
+ls /etc/lightdm/
+cat /etc/lightdm/users.conf 
+sudo vim /etc/lightdm/lightdm.conf
+sudo vim /etc/default/grub
+sudo add-apt-repository ppa:webupd8team:atom
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo mv /etc/apt/apt.conf.d/90proxy ~
+ls
+sudo apt-get update
+sudo mv /etc/apt/sources.list.d/chrome.list ~
+sudo apt-get update
+cat /etc/apt/sources.list.d/google-chrome.list
+cat ~/chrome.list 
+sudo apt-get install atom
+atom --help
+ls -a
+cat .bashrc
+cat .profile
+sudo vim /etc/apt/sources.list.d/opera.list
+history | grep apt-key
+wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install opera
+opera
+sudo apt-get uninstall opera
+sudo apt-get autoremove --purge opera
+sudo rm /etc/apt/sources.list.d/opera.list
+sudo ls /etc/apt/sources.list.d/
+ls
+rm chrome.list 
+cat examples.desktop 
+ls
+cat .bashrc 
+cat .profile 
+cat .bashrc | grep profile
+echo $PATH
+echo $HOME
+vim .profile 
+cat .profile 
+. .profile 
+echo $HTTP_PROXY
+echo $HTTP-PROXY
+cat .profile
+echo $HTTP_PROXY
+vim .profile 
+vim .bashrc
+echo $HTTP_PROXY
+vim .bashrc 
+. .bashrc
+echo $HTTP_PROXY
+echo HTTPS_PROXY
+echo $HTTPS_PROXY
+sudo apt-get update
+ls
+sudo mv 90proxy /etc/apt/apt.conf.d/
+sudo apt-get update
+sudo apt-cache search java 8
+sudo add-apt-repository ppa:webupd8team/java
+sudo -E add-apt-repository ppa:webupd8team/java
+set | grep proxy
+vim .bashrc 
+. .bashrc 
+set | grep proxy
+cat .bashrc 
+set | grep proxy
+sudo -E add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository -m ppa:webupd8team/java
+sudo add-apt-repository --keyserver-options http-proxy=http://proxy.reply.it:8080 ppa:webupd8team/java
+cat /etc/apt/sources.list
+ls /etc/apt/sources.list.d/
+ll /etc/apt/sources.list.d/
+sudo apt-get update
+cat /etc/apt/apt.conf.d/90proxy 
+vim /etc/apt/apt.conf.d/90proxy 
+sudo vim /etc/apt/apt.conf.d/90proxy 
+sudo apt-get update
+sudo apt-cache search java
+sudo apt-get install oracle-java8-installer 
+sudo apt autoremove
+java -version
+sudo apt-get install oracle-java8-set-default 
+echo $JAVA_HOME
+echo $PATH
+echo $JAVA_HOME
+history | wc -l
+which java
+sudo apt-cache search mysql
+sudo apt-cache search mysql server+
+sudo apt-cache search mysql server
+sudo apt-cache search mysql-server
+apt-cache show mysql-server
+sudo apt-get install mysql-server
+apt-cache show mysql-workbench
+sudo apt-get install mysql-workbench
+sudo server mysql status
+sudo service mysql status
+netstat -lnp | grep 3306
+sudo netstat -lnp | grep 3306
+mysql -h localhost -u root -p
+mysql -h localhost -u root
+sudo apt-get uninstall mysql-server
+sudo apt-get remove mysql-server
+sudo apt-get install mysql-server
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql status
+vim mysql-init
+ls
+pwd
+sudo mysqld_safe --init-file=/home/allan/mysql-init &
+ls
+rm mysql-init 
+ls
+sudo service mysql start
+sudo service mysql status
+mysql -h localhost -u root -p
+mysql -h 127.0.0.1 -u root -p
+sudo service mysql status
+sudo
+sudo service mysql status
+sudo service node status
+mysql -h localhost -u root -p
+sudo service mysql stop
+mysqld --skip-grant-tables &
+sudo mysqld --skip-grant-tables &
+mysql -u root
+ps 
+sudo mysqld --skip-grant-tables &
+mysql -u root mysql
+ps aux
+ps aux | grep mysql
+sudo mysqld --skip-grant-tables &
+ps aux | grep mysql
+mysql -u root mysql
+sudo mysqld --skip-grant-tables &
+sudo mysql -u root mysql
+cat /etc/mysql/my.cnf
+cat /etc/mysql/conf.d/mysql.cnf 
+cat /etc/mysql/conf.d/mysqldump.cnf 
+cat /etc/mysql/mysql.conf.d/mysqld.cnf 
+ls
+sudo apt-get purge mysql-server
+sudo apt-get autoremove
+ps aux
+ps aux | grep mysql
+sudo service mysql stop
+ps aux | grep mysql
+sudo kill -9 6659
+ps aux | grep mysql
+sudo kill -9 6287
+sudo kill -9 6791
+ps aux | grep mysql
+sudo apt-get install mysql-server
+mysqladmin -u root -p status
+sudo vim /etc/mysql/my.cnf
+cat /etc/mysql/my.cnf
+sudo vim /etc/mysql/my.cnf
+sudo service mysql restart
+systemctl status mysql.service
+journalctl -xe
+sudo vim /etc/mysql/my.cnf
+cat /etc/mysql/my.cnf
+cat /etc/mysql/conf.d/mysql.cnf | grep bind
+cat /etc/mysql/conf.d/mysqldump.cnf | grep bind
+cat /etc/mysql/mysql.conf.d/mysqld.cnf | grep bind
+ll
+la
+cat .mysql/workbench/
+cat /etc/mysql/conf.d/mysqldump.cnf | grep bind
+cat /etc/mysql/mysql.conf.d/mysqld.cnf | grep bind
+vim /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo service mysql start
+sudo service mysql status
+mysqladmin -u root -p status
+tail /var/log/mysql/error.log 
+sudo service mysql status
+mysql
+mysql -u root
+mysql -u root -p
+mysql -u root -p ""
+mysql -u root -p
+sudo mysql -u root -p
+sudo mysql -u root
+sudo mysql -u root -p
+mysql -u root -p
+ll /var/lib/mysql
+sudo ll /var/lib/mysql
+sudo ls /var/lib/mysql
+
+sudo ls /var/lib
+sudo ls -l /var/lib
+sudo chmod -R 755 /var/lib/mysql/
+sudo service mysql restart+
+sudo service mysql restart
+mysql -u root -p
+mysql -u root -p -h 127.0.0.1 -P 3306
+sudo service mysql stop
+cat /etc/mysql/mysql.conf.d/mysqld.cnf 
+cat /etc/mysql/mysql.conf.d/mysqld.cnf | grep bind
+vim /etc/mysql/mysql.conf.d/mysqld.cnf 
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf 
+sudo service mysql start
+sudo mysql
+sudo mysql mysql
+/usr/sbin/mysqld --help --verbose
+/usr/sbin/mysqld --help --verbose | grep default
+/usr/sbin/mysqld --help --verbose | grep .cnf
+cat /etc/mysql/my.cnf
+cat /etc/mysql/conf.d/
+ls /etc/mysql/conf.d/
+cd /etc/mysql/conf.d/
+ls
+ll
+cat mysql.cnf 
+cat mysqldump.cnf 
+cd ..
+ls
+cd conf.d/
+ls
+cat mysqldump.cnf 
+cd ..
+cd mysql.conf.d/
+ls
+cat mysqld.cnf 
+cat mysqld.cnf | grep bind
+ls
+cat mysqld_safe_syslog.cnf 
+cat mysqld.cnf | grep port
+vim mysqld.cnf 
+sudo vim mysqld.cnf 
+cat /var/log/mysql/error.log
+sudo service mysql restart
+cat /var/log/mysql/error.log
+sudo mysql_secure_installation 
+cd ~
+mysql -u root -p
+mysql -v
+sudo service mysql status
+mysql --version
+sudo service mysql stop
+/usr/local/mysql/bin/mysqld_safe --skip-grant-tables &
+which mysqld_safe 
+/usr/bin/mysqld_safe  --skip-grant-tables &
+sudo /usr/bin/mysqld_safe  --skip-grant-tables &
+sudo mysql
+sudo mysqld stop
+sudo /usr/bin/mysqld_safe stop
+sudo service mysql start
+sudo service mysql status
+mysql -u root -p
+sudo service mysql status
+mysql -u root -p
+sudo service mysql restart
+sudo killall mysql
+sudo killall mysqld
+sudo killall mysqld_safe
+sudo kill -9 7619
+sudo kill -9 7620
+sudo service mysql start
+sudo service mysql status
+mysql -u root -p
+sudo service mysql stop
+history | grep mysql
+sudo apt-get remove --purge mysql
+sudo apt-get remove --purge mysql-server
+sudo apt-get autoremove
+whereis mysql
+rm -rf /etc/mysql
+
+sudo apt-get install mysql-server
+sudo dpkg --configure mysql-server
+sudo apt-get remove --purge mysql-server
+touch /etc/mysql/mysql.cnf
+sudo touch /etc/mysql/mysql.cnf
+sudo apt-get remove --purge mysql-server
+sudo apt-get autoremove
+sudo apt-get clean
+sudo apt-get install mysql-server
+sudo service mysql status
+sudo mysql_secure_installation 
+sudo dpkg --configure mysql-server
+sudo mysql -u root
+sudo mysql -u root -p
+mysql -u root -p
+sudo mysql_secure_installation 
+mysql -u root -p
+sudo mysql-workbench 
+mysql -u root -p
+sudo mysql -u root
+mysql -u root -p
+sudo mysqladmin -u root password root
+mysql -u root -p
+sudo dpkg-reconfigure mysql-server-5.7
+mysql -u root -p
+mysql -u root
+sudo service mysql stop
+ls /var/lib/mysql/
+sudo ls /var/lib/mysql/
+ls
+vim mysql-init
+sudo mysqld_safe --init-file=~/mysql-init &
+sudo service mysql start
+sudo service mysql status
+mysql -u root -p
+ufw
+sudo ufw disable
+mysql -u root -p
+mysql -u root -p -h 127.0.0.1
+sudo ufw status
+users
+sudo mysqld --initialize --user=mysql
+sudo mysql
+mysql -u wms -p
+sudo mysql
+sudo apt-get update
+apt-cache search java
+apt-cache search oracle
+apt-cache sear
+sudo apt-get install maven
+mvn -help
+mvn -v
+which maven
+which mvn
+cat .m2
+ls -a
+echo $M2_HOME
+cat /usr/share/maven/conf/settings.xml 
+mkdir .m2
+cp /usr/share/maven/conf/settings.xml ./.m2/
+vim .m2/settings.xml 
+adduser --no-create-home --disabled-password --disabled-login wildfly
+sudo adduser --no-create-home --disabled-password --disabled-login wildfly
+ls ..
+ls /home
+cd /srv
+ls
+cd ¬
+cd ~
+cp .bash_history bash_history_20160504.txt
+cat /var/log/mysql/error.log 
+ps ax | grep mysql
+sudo mysqld_safe stop
+ps ax | grep mysql
+sudo service mysql stop
+sudo ls -l /var/lib
+sudo chmod -R 755 /var/lib/mysql/
+sudo chmod -R 755 /var/run/mysql/
+sudo chmod -R 755 /var/run/mysqld/
+sudo service mysql restart
+exho $JAVA_HOME
+echo $JAVA_HOME
+ls /opt/wildfly-9.0.2.Final/
+echo $JAVA_HOME
+which java
+ll /usr/bin/java
+ll /etc/alternatives/java
+which javac
+ll /usr/bin/javac
+ll /etc/alternatives/javac
+cat /etc/issue
+sudo userdel -r wildfly
+echo $path
+echo $PATGH
+echo $PATH
+cd Downloads/
+ls
+tar -xzvf wildfly-10.0.0.Final.tar.gz 
+ls
+echo $PATH
+ls /usr/local
+ls /usr/local/bin
+ls /opt/
+ll /opt
+mv wildfly-10.0.0.Final /opt/
+sudo mv wildfly-10.0.0.Final /opt/
+ls/opt
+ls /opt
+where atom
+which atom
+ll /usr/bin/a
+which chrome
+file /usr/bin/atom
+cat /usr/bin/atom
+cd /opt/
+ls
+cd wildfly-10.0.0.Final/
+ls
+cd docd
+sudo cp docs/contrib/scripts/init.d/wildfly-init-debian.sh /etc/init.d/
+ls /etc/init.d/
+sudo mkdir /etc/init.d/wildfly
+cat /etc/init.d/
+ls /etc/init.d/
+ll /etc/init.d/
+sudo rm /etc/init.d/wildfly
+sudo rmdir /etc/init.d/wildfly
+sudo mv /etc/init.d/wildfly-init-debian.sh /etc/init.d/wildfly
+cd ~/Downloads/
+ls
+tar -xzf wildfly-9.0.2.Final.tar.gz 
+ls
+sudo mv wildfly-9.0.2.Final /opt/
+cd /opt
+ls
+cd wildfly-9.0.2.Final/
+ls
+sudo ln -s /opt/wildfly-9.0.2.Final/ /usr/bin/wildfly
+cp bin/init.d/wildfly.conf /etc/default/wildfly
+sudo cp bin/init.d/wildfly.conf /etc/default/wildfly
+sudo vim /etc/default/wildfly 
+sudo cp bin/init.d/wildfly-init-debian.sh /etc/init.d/wildfly
+sudo chown root:root /etc/init.d/wildfly 
+sudo chmod +X /etc/init.d/wildfly 
+ll /etc/init.d/wildfly 
+sudo update-rc.d wildfly defaults
+sudo mkdir -p /var/log/wildfly
+cd ~/Downloads/
+ls
+unzip utils.zip -d ./utilz
+cd utilz/
+ls
+cd utils
+ls
+cat runme.sh 
+sudo useradd --system --shell /bin/false wildfly
+ls /home/
+sudo chown -R wildfly:wildfly /opt/wildfly-9.0.2.Final/
+sudo chown -R wildfly:wildfly /var/log/wildfly
+cat /etc/default/wildfly
+cat runme.sh 
+ll
+cp /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml.backup
+sudo cp /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml.backup
+ll /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo chmod -w /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+ll /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo chmod u+w /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+ll /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo chmod -w /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml.backup 
+ls
+./runme.sh /opt/wildfly-9.0.2.Final
+sudo ./runme.sh /opt/wildfly-9.0.2.Final
+sudo chown -R wildfly:wildfly /opt/wildfly-9.0.2.Final/
+vim /etc/default/wildfly 
+sudo vim /etc/default/wildfly 
+sudo update-rc.d wildfly enable
+sudo service wildfly start
+sudo service wildfly status
+sudo service wildfly stop
+ls /etc/mysql/mysql.conf.d/
+ls /etc/mysql/mysql.conf.d
+ll /etc/mysql/mysql.conf.d
+cat /etc/mysql/debian.cnf 
+sudo cat /etc/mysql/debian.cnf 
+sudo cat /etc/mysql/my.cnf
+history | grep mysql
+history | grep "grep bind"
+cat /etc/mysql/mysql.conf.d/mysqld.cnf
+cd /etc/mysql/
+ls
+ll
+cat /etc/alternatives/my.cnf 
+ls mysql.conf.d/
+cat debian.cnf 
+ll
+sudo cat debian.cnf 
+cd ~
+vim .bashrc 
+sudo vim /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo service mysql start
+sudo mysql
+mysql -u wms -p
+sudo vim /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo /opt/wildfly-9.0.2.Final/bin/add-user.sh 
+sudo service mysql status
+sudo service wildfly start
+sudo service wildfly status
+ls
+cd Downloads/
+ls
+rm -rf utilz
+tar -xcf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
+tar -xzf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
+ls
+ll
+sudo mv eclipse /opt/
+ls /opt/
+ll /opt/
+cd eclipse
+ls
+cd /opt/
+ls
+cd eclipse/
+ls
+cat readme/
+cat readme/readme_eclipse.html 
+ls
+cat eclipse
+62;c
+cat eclipse.ini 
+ls
+cd ..
+cd 
+ls
+pwd
+cat examples.desktop 
+vim eclipse.desktop
+sudo desktop-file-install eclipse.desktop 
+sudo ln -s /opt/eclipse/eclipse /usr/local/bin/eclipse45
+sudo chown -R allan:allan /opt/eclipse/configuration/org.eclipse.osgi
+cd /opt/eclipse/
+ls
+vim eclipse.ini 
+cd /usr/lib/jvm/java-8-oracle
+ls
+cd -
+vim eclipse.ini 
+cd ~/Downloads/
+ls
+tar -xzf gitkraken-amd64.tar.gz 
+cd ]
+cd ~
+ls
+cat eclipse.desktop 
+cp eclipse.desktop gitkracken.desktop
+mv gitkracken.desktop gitkraken.desktop 
+vim gitkraken.desktop 
+ls
+cd Downloads/
+ls
+mv icon-gitkraken.png GitKraken/icon.png
+cd ..
+cd Do
+cd Downloads/
+mv GitKraken /opt/gitkraken
+sudo mv GitKraken /opt/gitkraken
+cd /opt/
+ls
+cd ~
+ls
+vim gitkraken.desktop 
+sudo desktop-file-install gitkraken.desktop 
+vim gitkraken.desktop 
+sudo desktop-file-install gitkraken.desktop 
+cat gitkraken.desktop 
+sudo desktop-file-edit 
+vim gitkraken.desktop 
+sudo desktop-file-edit gitkraken.desktop 
+cat gitkraken.desktop 
+sudo desktop-file-install gitkraken.desktop 
+sudo ln -s /opt/gitkraken/gitkraken /usr/local/bin/gitkraken12
+sudo chown -R allan:allan /opt/gitkraken
+curl http://marketplace.eclipse.org/catalogs/api/p
+echo $http_proxy
+curl http://www.emuita.it
+curl -x http://proxy.reply.it:8080 -L http://www.emuita.it
+curl -x http://proxy.reply.it:8080 -L http://marketplace.eclipse.org/catalogs/api/p
+cd /opt/
+ls
+ll eclipse/
+ll eclipse/plugins
+cd eclipse/
+ll
+cd p2
+ll
+cd ..
+ls
+./eclipse &
+cd ..
+sudo mv eclipse eclipse-wrecked
+ls
+cd ~/Downloads/
+ls
+tar xzf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz 
+ls
+sudo mv eclipse /opt/
+cd /opt/
+ls
+ll
+cd ~
+ls
+rm -rf eclipse-wms
+mkdir eclipse-wms
+cd /opt/
+cd eclipse
+./eclipse &
+cd ~/Downloads/
+ls
+tar zxf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz 
+cd eclipse/
+./eclipse &
+SWT_GTK3=0 ./eclipse &
+./eclipse &
+cd ~
+cd workspace/.metadata/.lo
+cd workspace/.metadata/
+ls
+cd ..
+cd -
+cd ..
+cd ../Downloads/
+cd eclipse/
+ls
+cat eclipse.ini 
+ls
+./eclipse --launcher.GTK_version 2
+./eclipse --launcher.GTK_version 
+ls
+cd ..
+ls
+rm -rf eclipse
+ls
+cd /opt/
+ls
+sudo rm -rf eclipse
+sudo rm -rf eclipse-wrecked
+ls
+cd ~/Downloads/
+ls
+tar -zxf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
+sudo mv eclipse /opt/
+cd /opt/eclipse/
+ls
+vim eclipse.ini 
+ls /e
+echo $JAVA_HOME
+cd $JAVA_HOME
+ls
+cd bin
+ls
+cd ~
+ls
+rm -rf eclipse-wms
+mkdir eclipse-wms
+ls
+ls -a
+rm -rf .eclipse
+apt-cache sudo service wildfly status
+sudo service wildfly status
+cd
+cd /opt/eclipse/
+ls
+cp eclipse.ini ~
+ls
+cd ~
+ls
+ls -a
+rm -rf .eclipse
+cd Downloads/
+ls
+tar -zxf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
+ls
+rm -rf /opt/eclipse
+sudo rm -rf /opt/eclipse
+sudo mv eclipse /opt/
+cd /opt/
+ls
+cp ~/eclipse.ini /opt/eclipse/
+cd ~
+ls
+rm -rf eclipse-wms/
+mkdir eclipse-wms
+ls
+rm -rf .eclipse
+rm -rf /opt/eclipse
+sudo rm -rf /opt/eclipse
+cd Downloads/
+tar -zxf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz 
+sudo mv eclipse /opt/
+ll
+cd ..
+ll
+cp eclipse.ini /opt/eclipse/
+rmdir eclipse-wms
+rm -rf eclipse-wms
+mkdir eclipse-wms
+rm -rf workspace
+apt-cache search apache
+
+apt-cache info apache2
+apt-cache show apache2
+sudo apt-get install apache2
+sudo service wildfly stop
+ls /opt/
+ll /opt/
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+history | chmod
+history | grep chmod
+history | grep chown
+sudo chown -R allan:allan /opt/wildfly-9.0.2.Final/
+ls
+ll
+ll /opt/
+which httpd
+which apache2
+ll /usr/sbin/apache2
+cat /usr/sbin/apache2
+clean
+clr
+clean
+clear
+cd /etc/apache2/
+ls
+ls mods-available/
+ls mods-enabled/
+sudo a2enmod ssl
+service apache2 restart
+sudo a2enmod proxy
+sudo service apache restart
+sudo service apache2 restart
+sudo a2enmod headers
+sudo service apache2 restart
+sudo a2enmod proxy_ajp
+sudo service apache2 restart
+ls
+cd conf
+cd conf-enabled/
+ls
+cd ..
+cd conf-available/
+ls
+cd ..
+cd sites-enabled/
+ls
+cd ..
+cd sites-available/
+ls
+htpasswd 
+ls /etc/apache2/
+cd ..
+ls
+htpasswd -c .htpasswd allan
+sudo htpasswd -c .htpasswd allan
+ls
+ls -a
+cd sites-available/
+ls
+cat default-ssl.conf 
+ls
+cd ..
+ls
+cat apache2.conf 
+cd mods-enabled/
+ls
+cat ssl.conf 
+ls
+cat ssl.load 
+cd ..
+cd sites-available/
+ls
+ll
+sudo vim wms.conf
+a2ensite wms
+sudo a2ensite wms
+sudo service apache2 reload
+cd ~
+vim .bashrc 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+. .bashrc 
+cat .bashrc 
+command -v nvm
+nvm
+nvm ls-remote
+nvm install 4.4.3
+nvm install 6.0.0
+nvm use v4.4.3
+npm config list
+vim /opt/eclipse/eclipse.ini 
+cp /opt/eclipse/eclipse.ini /opt/eclipse/eclipse.ini.backup
+vim /opt/eclipse/eclipse.ini 
+cp /opt/eclipse/eclipse.ini.backup /opt/eclipse/eclipse.ini
+rm -rf .nvm
+sudo curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | NVM_DIR="/opt/nvm" bash
+sudo mkdir /opt/nvm
+ls /opt/
+sudo chown allan:allan /opt/nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | NVM_DIR="/opt/nvm" bash
+command -v nvm
+nvm install 4.4.3
+nvm install 6.0.0
+nvm use 4.4.3
+npm config list
+npm config set proxy http://proxy.reply.it:8080
+npm config set https-proxy http://proxy.reply.it:8080
+npm config set strict-ssl false
+npm config set progress false
+git config --global url."https://".insteadOf git://
+npm config list
+cat .bashrc 
+vim .bashrc 
+ls /opt/nvm/
+vim .bashrc 
+. .bashrc 
+nvm which v4.4.3
+nvm ls
+npm install v6.0.0
+nvm install v6.0.0
+npm install v4.4.3
+nvm install v4.4.3
+nvm ls
+nvm alias default v4.4.3
+history | grep npm config
+history | grep "npm config"
+npm config set proxy http://proxy.reply.it:8080
+npm config set https-proxy http://proxy.reply.it:8080
+npm config set strict-ssl false
+npm config set progress false
+npm install -g grunt-cli
+npm config set proxy
+npm config set https-proxy
+npm config rm proxy
+npm config set https-proxy http://proxy.reply.it:8080
+npm config set proxy http://proxy.reply.it:8080
+npm config rm proxy
+npm config rm https-proxy
+npm install -g grunt-cli
+cd repos/wms/sce-ui
+npm install
+grunt build
+cd /etc/apache2/sites-available/
+ls
+cat 000-default.conf 
+ls
+cat wms.conf 
+cat default-ssl.conf 
+cd~
+cd ~
+ls
+history > bash_history_20160505.txt
+npm config set https-proxy http://proxy.reply.it:8080
+npm config set proxy http://proxy.reply.it:8080
+sudo apt-get update
+apt-get -u upgrade --assume-no
+sudo apt-get -u upgrade --assume-no
+sudo apt-get -u dist-upgrade --assume-no
+sudo apt-get -u dist-upgrade
+sudo apt-add-repository -y ppa:rael-gc/scudcloud
+history | grep apt-add-repository
+history | grep proxy.reply.it:8080
+sudo apt-add-repository --keyserver-options http-proxy=http://proxy.reply.it:8080 ppa:rael-gc/scudcloud
+echo $http_proxy
+history | grep ppa
+sudo -E apt-add-repository ppa:rael-gc/scudcloud
+sudo apt-get update
+sudo apt-key adv --keyserver-options http-proxy=http://proxy.reply.it:8080/ --keyserver keyserver.ubuntu.com --recv-keys 8094BB14F4E3FBBE
+sudo apt-get update
+echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+sudo apt-get update
+sudo apt-get install scudcloud
+vim /etc/apache2/sites-enabled/wms.conf 
+a2dissite wms
+sudo a2dissite wms
+sudo service apache2 reload
+vim /etc/apache2/sites-available/wms.conf 
+cd /etc/apache2/sites-available
+ls
+ll
+sudo vim wms.conf 
+cd ~
+sudo a2ensite wms
+sudo service apache2 reload
+cat /etc/apache2/apache2.conf 
+cat /etc/apache2/apache2.conf | grep listen
+cat /etc/apache2/apache2.conf 
+cat /etc/apache2/ports.conf 
+cat /etc/apache2/sites-enabled/wms.conf 
+cat /etc/apache2/apache2.conf 
+tail -f /path/to/apache/error.logs
+tail -f /var/log/apache2/error.log 
+sudo chmod -R 755 repos
+tail -f /var/log/apache2/error.log 
+sudo service apache2 reload
+tail -f /var/log/apache2/error.log 
+tail -f /var/log/apache2/access.log 
+ll /var/www
+ll -R /var/www
+ll /var
+ll /
+ll /home
+ll /home/allan
+ll /home/allan/repo
+ll /home/allan/repos
+ll /home/allan/repos/wms
+ll /home/allan/repos/wms-fe
+ll /home/allan/repos/wms/wms-fe
+cat /etc/apache2/
+cat /etc/apache2/apache2.conf 
+ls /etc/apache2/sites-enabled/
+cat /etc/apache2/sites-enabled/000-default.conf 
+sudo a2dissite 000-default
+sudo service apache2 reload
+cat /etc/apache2/apache2.conf | grep documentroot
+cat /etc/apache2/apache2.conf | grep DocumentRoot
+cat /etc/apache2/apache2.conf
+cat /var/www/html/index.html 
+sudo a2ensite 000-default
+sudo a2dissite 000-default
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wms-again.conf 
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wms-again.conf 
+cd /etc/apache2/sites-available/
+ls
+cat wms
+cat wms.conf 
+sudo a2dissite 000-default
+tail -f /var/log/apache2/error.log 
+cd ..
+ls envvars 
+cat envvars 
+sudo adduser allan www-data
+cat apache2.conf 
+vim apache2.conf 
+sudo vim apache2.conf 
+cd /home/allan/repos/
+find . -type d -exec chmod 755 {} \;
+find . -type f -exec chmod 644 {} \;
+echo $MYSQL_URL
+history | grep htpasswd
+cd /etc/apache2/sites-available
+sudo vim wms-again.conf 
+sudo a2ensite wms-again
+sudo service apace2 restart
+sudo service apache2 restart
+sudo a2disssite wms-again
+sudo a2dissite wms-again
+vim wms-again.conf 
+sudo vim wms-again.conf 
+sudo a2ensite wms-again
+sudo service apace2 restart
+sudo service apache2 restart
+ls
+ll /home/allan/repos/wms/wms-fe/
+ll /home/allan/repos/wms/
+ll /home/allan/repos/
+ll /home/allan/
+ll /home/allan
+ll /home
+ll /
+vim wms-again.conf 
+sudo vim wms-again.conf 
+sudo service apace2 restart
+sudo service apache2 restart
+cd ..
+ls
+sudo vim apache2.conf 
+sudo service apace2 restart
+sudo service apache2 restart
+sudo vim apache2.conf 
+sudo service apache2 restart
+cat apache2.conf 
+sudo service apache2 restart
+sudo chown allan:www-data -R /home/allan/repos
+sudo chmod 0755 -R /home/allan/repos
+sudo chmod g+s -R /home/allan/repos
+sudo service apache2 restart
+tail -f /var/log/apache2/error.log 
+sudo service mysql start
+sudo service wildfly start
+sudo service wildfly stop
+sudo service wildfly start
+history | grep wildfly
+sudo service mysql start
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo -E /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo echo $MYSQL_URL
+vim ~/.bashrc 
+. ~/.bashrc 
+sudo echo $MYSQL_URL
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+vim /opt/wildfly-9.0.2.Final/standalone/configuration/standalone-full.xml
+sudo mv repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT /opt/wildfly-9.0.2.Final/standalone/deployments
+cd /opt/wildfly-9.0.2.Final/standalone/deployments
+ls
+sudo cp repos/wms/wms-be/wms-application/target/ /opt/wildfly-9.0.2.Final/standalone/deployments
+sudo cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear ./
+ls
+sudo cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear ./
+cd ..
+sudo vim configuration/standalone-full.xml
+cat ~/.bashrc 
+vim ~/.bashrc 
+. ~/.bashrc 
+sudo echo $MYSQL_URL
+sudo service wildfly start
+systemctl status wildfly.service
+sudo service wildfly start
+journalctl -xe
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+cd /opt/wildfly-9.0.2.Final/
+ls
+cd bin
+ls
+sudo vim jboss-cli.xml 
+cd..
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo vim jboss-cli.xml 
+cd ..
+cd standalone/configuration/
+ls
+sudo vim standalone-full.xml
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo mysql
+sudo service mysql restart
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo service mysql restart
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo service mysql restart
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+. ~/.bashrc 
+sudo /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+sudo WMS_APPLICATION_1_0_CONFIGURATION_URL="file://be_configuration_folder/wms-be-configuration/src/main/resources/" /opt/wildfly-9.0.2.Final/bin/standalone.sh -c standalone-full.xml
+cd ~
+cd repos/wms/wms-fe/
+ls
+ll
+cd ../..
+cd ..
+cd repos/
+find . -t d -exec chmod a+rwx \;
+history | grep chmod
+cd wms/
+cd wms-fe/
+ls
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd wms-be-configuration
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd wms-be
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd sce-ui/
+sudo chmod 755 setBambooDeploySkip.sh 
+cd ..
+cd sce-backend/
+sudo chmod 755 setBambooDeploySkip.sh 
+cat /proc/sys/fs/inotify/max_user_watches
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+cat /proc/sys/fs/inotify/max_user_watches
+sudo service mysql status
+sudo service wildfly status
+sudo service wildfly statr
+sudo service wildfly start
+ls /opt
+ll /opr
+ll /opt
+cd /opt/
+ls
+ll
+cd wildfly-9.0.2.Final/
+ls
+cd standalone/
+ls
+cd configuration/
+ls
+vim standalone-full.xml
+sudo vim /etc/default/wildfly 
+cd ¬
+cd ]
+cd ~
+sudo service wildfly start
+sudo service wildfly status
+sudo service mysql status
+cd /opt/wildfly-9.0.2.Final/standalone/deployments/
+ls
+which node
+npm install -g trash-cli
+npm config rm proxy
+npm config rm https-proxy
+npm install -g trash-cli
+trash wms-application-1.0.0-SNAPSHOT.ear.failed 
+rm wms-application-1.0.0-SNAPSHOT.ear.failed 
+mv wms-application-1.0.0-SNAPSHOT.ear ~/Downloads/
+ls
+sudo service mysql status
+sudo service wildfly start
+sudo service wildfly status
+cat the timeout allowed
+cat "/var/log/wildfly/console.log"
+ll "/var/log/wildfly/console.log"
+ll "/var/log/wildfly/
+"
+ll "/var/log/wildfly"
+tail -f /var/log/apache2/access.log 
+sudo service mysql status
+sudo service wildfly status
+cd repos/wms/
+find . -name "*.ear"
+cd /opt/wildfly-
+cd /opt/wildfly-9.0.2.Final/
+ls
+cd ..
+ls
+trash
+trash wildfly-10.0.0.Final/
+sudo trash wildfly-10.0.0.Final/
+ls
+cd wildfly-9.0.2.Final/
+ls
+cd standalone/deployments/
+ls
+cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments
+sudo apt-get update
+sudo apt-cache search compizconfig-settings-manager
+sudo apt-get install compizconfig-settings-manager
+sudo service wildfly stop
+tail -50 /var/log/apache2/access.log 
+tail -50 /var/log/apache2/error.log 
+tail -f /var/log/apache2/error.log 
+sudo apt-get install hardinfo
+hardinfo
+cat /dev/cpu/0
+cat /dev/cpu/0/cpuid 
+sudo cat /dev/cpu/0/cpuid 
+sudo lshw
+sudo apt-get remove hardinfo
+sudo apt-get purge
+hardinfo
+cp /home/allan/repos/wms/wms-be/wms-application/target/wms-application-1.0.0-SNAPSHOT.ear /opt/wildfly-9.0.2.Final/standalone/deployments
